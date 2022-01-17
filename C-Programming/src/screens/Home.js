@@ -202,7 +202,7 @@ export default function Home({ navigation }) {
     const renderItem = ({ item, index }) => {
         const { name, color } = item
         return (
-            <TouchableOpacity style={styles.item}>
+            <TouchableOpacity onPress={() => navigation.navigate('Details', { topic: item })} style={styles.item}>
                 <View style={styles.rowCentered}>
                     <View style={[styles.circle, { backgroundColor: item.color }]} />
                     <Text style={styles.planetName} >{name}</Text>
