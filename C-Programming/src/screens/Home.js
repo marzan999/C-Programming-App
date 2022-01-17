@@ -241,14 +241,14 @@ export default function Home({ navigation }) {
 
     return (
         <SafeAreaView style={{ backgroundColor: '#556B2F', flex: 1 }} >
-            <PlanetHeader backButton={false} topicName='TOPIC LIST' />
+            <PlanetHeader backButton={false} topicName='TOPIC LIST' customStyles={{ color: colors.black }} />
 
             <FlatList
                 data={C_TOPIC_LIST}
                 renderItem={renderItem}
                 keyExtractor={(item, index) => item.name}
                 contentContainerStyle={{ padding: spacing[5] }}
-                ItemSeparatorComponent={() => <View style={{ height: 1, backgroundColor: colors.orange }} />}
+                ItemSeparatorComponent={() => <View style={{ height: 1, backgroundColor: colors.green }} />}
             />
 
             <StatusBar barStyle="light-content" />

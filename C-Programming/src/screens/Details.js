@@ -12,8 +12,8 @@ export default function Details({ route }) {
 
     return (
 
-        <SafeAreaView style={{ backgroundColor: colors.black, flex: 1 }}>
-            <PlanetHeader backButton={true} topicName='back to home' customStyles={{ fontSize: spacing[5] }} />
+        <SafeAreaView style={{ backgroundColor: '#556B2F', flex: 1 }}>
+            <PlanetHeader backButton={true} topicName='back to home' customStyles={{ fontSize: spacing[5], color: colors.black }} />
 
             <ScrollView>
                 <View style={{ paddingVertical: spacing[5], alignItems: 'center', justifyContent: 'center' }}>
