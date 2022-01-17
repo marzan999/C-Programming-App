@@ -234,7 +234,7 @@ export default function Home({ navigation }) {
                     <View style={[styles.circle, { backgroundColor: item.color }]} />
                     <Text style={styles.planetName} >{name}</Text>
                 </View>
-                <AntDesign name="right" size={16} color={colors.orange} />
+                <AntDesign name="right" size={16} color={colors.black} />
             </TouchableOpacity>
         )
     }
