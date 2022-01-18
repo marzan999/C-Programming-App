@@ -22,7 +22,7 @@ export const presets = {
     bold: BOLD,
     h1: {
         ...BOLD,
-        fontSize: 32,
+        fontSize: 35,
     },
     h2: {
         ...BOLD,
@@ -38,6 +38,10 @@ export const presets = {
     },
     h5: {
         ...BASE,
+        fontSize: 20,
+    },
+    h6: {
+        ...BASE_BOLD,
         fontSize: 20,
     },
 

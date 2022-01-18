@@ -9,13 +9,16 @@ import { colors } from '../theme/color'
 import { spacing } from '../theme/spacing'
 import { AntDesign } from '@expo/vector-icons';
 
+
 export const C_TOPIC_LIST = [
 
     {
         name: 'What is C',
         color: '#DEF4FC',
-        description: 'C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers.',
-        description2: ['Operating Systems', 'Language Compilers', 'Assemblers', 'Text Editors', 'Print Spoolers', 'Network Drivers', 'Modern Programs', 'Databases', 'Language Interpreters', 'Utilities'],
+        image: require("../../assets/1.png"),
+        description: 'C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers. \n\nIt is said that ‘C’ is a mother of programming language. One can say, C is a base for the programming. If you know ‘C’ you can easily grasp the knowledge of the other programming languages that uses the concept of ‘C’ \n\n\nSome examples of the use of C are -\n\nOperating Systems\n\nLanguage Compilers\n\nAssemblers\n\nText Editors\n\nPrint Spoolers\n\nNetwork Drivers\n\nModern Programs\n\nDatabases\n\nLanguage Interpreters\n\nUtilities',
+        //description2: ['Operating Systems', 'Language Compilers', 'Assemblers', 'Text Editors', 'Print Spoolers', 'Network Drivers', 'Modern Programs', 'Databases', 'Language Interpreters', 'Utilities'],
+
     },
 
     {
@@ -211,15 +214,15 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between'
     },
     circle: {
-        width: 10,
-        height: 10,
+        width: 15,
+        height: 15,
         borderRadius: 10,
     },
     rowCentered: {
         flexDirection: 'row',
         alignItems: 'center'
     },
-    planetName: {
+    topicName: {
         marginLeft: spacing[5],
         textTransform: 'uppercase'
     }
@@ -232,7 +235,7 @@ export default function Home({ navigation }) {
             <TouchableOpacity onPress={() => navigation.navigate('Details', { topic: item })} style={styles.item}>
                 <View style={styles.rowCentered}>
                     <View style={[styles.circle, { backgroundColor: item.color }]} />
-                    <Text style={styles.planetName} >{name}</Text>
+                    <Text preset="h6" style={styles.topicName} >{name}</Text>
                 </View>
                 <AntDesign name="right" size={16} color={colors.black} />
             </TouchableOpacity>
@@ -240,15 +243,15 @@ export default function Home({ navigation }) {
     }
 
     return (
-        <SafeAreaView style={{ backgroundColor: '#556B2F', flex: 1 }} >
-            <PlanetHeader backButton={false} topicName='TOPIC LIST' customStyles={{ color: colors.black }} />
+        <SafeAreaView style={{ backgroundColor: '#29595c', flex: 1 }} >
+            <PlanetHeader backButton={false} topicName='TOPIC LIST' customStyles={{ color: '#40E0D0' }} />
 
             <FlatList
                 data={C_TOPIC_LIST}
                 renderItem={renderItem}
                 keyExtractor={(item, index) => item.name}
                 contentContainerStyle={{ padding: spacing[5] }}
-                ItemSeparatorComponent={() => <View style={{ height: 1, backgroundColor: colors.green }} />}
+                ItemSeparatorComponent={() => <View style={{ height: 2, backgroundColor: '#40E0D0' }} />}
             />
 
             <StatusBar barStyle="light-content" />
