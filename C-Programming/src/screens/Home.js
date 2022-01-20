@@ -27,7 +27,7 @@ export const C_TOPIC_LIST = [
         name: 'Hello World',
         color: '#838391',
         description: 'Program to Display "Hello, World!"',
-        descriptionSC: 'Source Code: ',
+        descriptionSC: '\nSource Code: \n',
         descriptionOP: 'Output: \n',
         code: '#include <stdio.h>\nint main() {\n// printf() displays the string inside quotation\nprintf("Hello, World!");\nreturn 0;\n}',
         output: 'Hello, World!',
@@ -51,7 +51,12 @@ export const C_TOPIC_LIST = [
     {
         name: 'Input Output',
         color: '#EDA249',
-        description2: [],
+        description1IO: 'C Input: ',
+        descriptionIO: 'In C programming, scanf() is one of the commonly used function to take input from the user. The scanf() function reads formatted input from the standard input such as keyboards.',
+        descriptionINT: 'Example: Integer Input/Output \n',
+        descriptionCode: '#include <stdio.h>\nint main()\n{\nint testInteger;\nprintf("Enter an integer: ");\nscanf("%d", &testInteger);\nprintf("Number = %d",testInteger);\nreturn 0;\n}',
+        descriptionOPT: 'Output: \n',
+        descriptionOutput: 'Enter an integer: 4\nNumber = 4'
 
     },
 
