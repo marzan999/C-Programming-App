@@ -60,7 +60,16 @@ export const C_TOPIC_LIST = [
         descriptionIO2: 'Here, we have used %d format specifier inside the scanf() function to take int input from the user. When the user enters an integer, it is stored in the testInteger variable.',
         descriptionFLO: 'Example: Float and Double Input/Output \n',
         descriptionFLOCode: '#include <stdio.h>\nint main()\n{\nfloat num1;\ndouble num2;\n\nprintf("Enter a number: ");\nscanf("%f", &num1);\nprintf("Enter another number: ");\nscanf("%lf", &num2);\n\nprintf("num1 = %f", num1);\nprintf("num2 = %lf", num2);\n\nreturn 0;\n}',
-        descriptionFLOOutput: 'Enter a number: 12.523\nEnter another number: 10.2\nnum1 = 12.523000\nnum2 = 10.200000'
+        descriptionFLOOutput: 'Enter a number: 12.523\nEnter another number: 10.2\nnum1 = 12.523000\nnum2 = 10.200000',
+        descriptionFLOdescription: 'We use %f and %lf format specifier for float and double respectively.',
+        descriptionChe: 'Example: C Character I/O \n',
+        descriptionCheCode: '#include <stdio.h>\nint main()\n{\nchar chr;\nprintf("Enter a character: ");\nscanf("%c",&chr);\nprintf("You entered %c.", chr);\nreturn 0;\n}   ',
+        descriptionCheOutput: 'Enter a character: g\nYou entered g',
+        descriptionChedescription: 'When a character is entered by the user in the above program, the character itself is not stored. Instead, an integer value (ASCII value) is stored. And when we display that value using %c text format, the entered character is displayed. If we use %d to display the character, it is ASCII value is printed.',
+        description2FormetS1: 'Format Specifiers for I/O',
+        description2FormetS2: 'As you can see from the above examples, we use\n\n%d for int\n%f for float\n%lf for double\n%c for char',
+        description2FormetS3: 'Here is a list of commonly used C data types and their format specifiers.\n',
+        imageIO: require("../../assets/IO.png"),
 
     },
 
