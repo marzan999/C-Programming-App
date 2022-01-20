@@ -18,7 +18,8 @@ export const C_TOPIC_LIST = [
         image: require("../../assets/1.png"),
         description: 'C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers. \n\nIt is said that ‘C’ is a mother of programming language. One can say, C is a base for the programming. If you know ‘C’ you can easily grasp the knowledge of the other programming languages that uses the concept of ‘C’ \n\n\nSome examples of the use of C are -\n\nOperating Systems\n\nLanguage Compilers\n\nAssemblers\n\nText Editors\n\nPrint Spoolers\n\nNetwork Drivers\n\nModern Programs\n\nDatabases\n\nLanguage Interpreters\n\nUtilities',
         //description2: ['Operating Systems', 'Language Compilers', 'Assemblers', 'Text Editors', 'Print Spoolers', 'Network Drivers', 'Modern Programs', 'Databases', 'Language Interpreters', 'Utilities'],
-        // code: [], 
+        // code: [],
+        // output: [],
 
     },
 
@@ -26,8 +27,8 @@ export const C_TOPIC_LIST = [
         name: 'Hello World',
         color: '#838391',
         description: 'Program to Display "Hello, World!"',
-        description2: 'Source Code: \n',
-        description3: 'Output: \n',
+        descriptionSC: 'Source Code: ',
+        descriptionOP: 'Output: \n',
         code: '#include <stdio.h>\nint main() {\n// printf() displays the string inside quotation\nprintf("Hello, World!");\nreturn 0;\n}',
         output: 'Hello, World!',
         // description2: 'hello',
@@ -37,7 +38,13 @@ export const C_TOPIC_LIST = [
     {
         name: 'Data types',
         color: '#419EBB',
-        description2: [],
+        description: 'A data type specifies the type of data that a variable can store such as integer, floating, character, etc.',
+        imageDT: require("../../assets/dt.png"),
+        imageDT2: require("../../assets/dt2.png"),
+        imageDT3: require("../../assets/dt3.png"),
+        descriptionDT: 'There are the following data types in C language.',
+        descriptionDT2: 'Basic Data Types',
+        descriptionDT3: '\nThe basic data types are integer-based and floating-point based. C language supports both signed and unsigned literals. The memory size of the basic data types may change according to 32 or 64-bit operating system. Let us see the basic data types. Its size is given according to 32-bit architecture.\n'
 
     },
 
