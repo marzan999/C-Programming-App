@@ -8,7 +8,7 @@ import { spacing } from '../theme/spacing'
 
 export default function Details({ route }) {
     const { topic } = route.params;
-    const { name, description, description2, image, code } = topic;
+    const { name, description, description2, description3, image, code, output, outputDescription } = topic;
 
     return (
 
@@ -25,13 +25,25 @@ export default function Details({ route }) {
 
                         {image ? <Image source={image} style={{ alignSelf: 'center', width: 350, height: 200, paddingTop: 300 }} resizeMode='contain' /> : null}
 
+
                         <Text preset="h5" style={{ paddingTop: spacing[4], lineHeight: spacing[7] }}>
                             {description}
                         </Text>
+                        <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[7] }}>{description2}</Text>
 
-                        <Text preset='h5' style={{ lineHeight: spacing[8], color: colors.orange }} selectable="true">{code}</Text>
+                        <Text preset='h5' style={{ lineHeight: spacing[9], color: colors.orange, backgroundColor: '#266E73' }} selectable="true">{code}</Text>
 
-                        <Text>{description2}</Text>
+                        <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[7] }}>{description3}</Text>
+
+                        <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }}>{output}</Text>
+
+                        <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{outputDescription}</Text>
+
+
+
+
+
+
 
                         {/* <Text preset='h3' style={{ paddingTop: spacing[4] }}>Some examples of the use of C are -</Text> */}
 
