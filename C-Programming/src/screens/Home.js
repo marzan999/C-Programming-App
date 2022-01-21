@@ -87,8 +87,21 @@ export const C_TOPIC_LIST = [
     {
         name: 'Operators',
         color: '#D14C32',
-        description2: [],
-
+        imageOP: require("../../assets/op1.png"),
+        descriptionOperator1: '\nAn operator is a symbol that operates on a value or a variable. For example: + is an operator to perform addition.\n\nC has a wide range of operators to perform various operations.',
+        descriptionOperator2: 'C Arithmetic Operators',
+        descriptionOperator3: 'An arithmetic operator performs mathematical operations such as addition, subtraction, multiplication, division etc on numerical values (constants and variables).',
+        descriptionOperator4: 'Example: Arithmetic Operators\n',
+        descriptionOperator5: '// Working of arithmetic operators\n#include <stdio.h>\nint main()\n{\nint a = 9,b = 4, c;\n\nc = a+b;printf("a+b = %d ",c);\nc = a-b;\nprintf("a-b = %d ",c);\nc = a*b;\nprintf("a*b = %d ",c);\nc = a/b;\nprintf("a/b = %d ",c);\nc = a%b;\nprintf("Remainder when a divided by b = %d ",c);\n\nreturn 0;\n}',
+        descriptionOperator6: 'Output\n',
+        descriptionOperator7: 'a+b = 13\nrra-b = 5\na*b = 36\na/b = 2\nRemainder when a divided by b=1',
+        descriptionOperator8: '\nThe operators +, - and * computes addition, subtraction, and multiplication respectively as you might have expected.\n\nIn normal calculation, 9/4 = 2.25. However, the output is 2 in the program.\n\nIt is because both the variables a and b are integers. Hence, the output is also an integer. The compiler neglects the term after the decimal point and shows answer 2 instead of 2.25.\n\nThe modulo operator % computes the remainder. When a=9 is divided by b=4, the remainder is 1. The % operator can only be used with integers.',
+        descriptionOperator9: '',
+        descriptionOperator10: '',
+        descriptionOperator11: '',
+        descriptionOperator12: '',
+        descriptionOperator13: '',
+        descriptionOperator14: '',
     },
 
     {
