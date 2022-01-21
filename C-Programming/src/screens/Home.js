@@ -76,8 +76,12 @@ export const C_TOPIC_LIST = [
     {
         name: 'Comments',
         color: '#6f2ed6',
-        description2: [],
-
+        descriptionComments: 'This C tutorial explains how to use comments in the C language with syntax and examples.',
+        descriptionCommentsDes: 'Description',
+        descriptionCommentsDes2: 'In the C Programming Language, you can place comments in your source code that are not executed as part of the program.\n\nComments provide clarity to the C source code allowing others to better understand what the code was intended to accomplish and greatly helping in debugging the code. Comments are especially important in large projects containing hundreds or thousands of lines of source code or in projects in which many contributors are working on the source code.\n\nA comment starts with a slash asterisk /* and ends with a asterisk slash */ and can be anywhere in your program. Comments can span several lines within your C program. Comments are typically added directly above the related C source code.\n\nAdding source code comments to your C source code is a highly recommended practice. In general, it is always better to over comment C source code than to not add enough.',
+        descriptionCommentsDes3: 'Syntax\n',
+        descriptionCommentsDes4: 'The syntax for a comment is: \n',
+        descriptionCommentsDes5: '/* comment goes here */\n\nOR\n\n/*\n* comment goes here\n*/',
     },
 
     {
