@@ -56,6 +56,14 @@ export default function Details({ route }) {
         descriptionOperator7,
         descriptionOperator8,
         descriptionOperator9,
+        descriptionOperator10,
+        descriptionOperator11,
+        descriptionOperator12,
+        descriptionOperator13,
+        descriptionOperator14,
+        descriptionOperator15,
+        descriptionOperator16,
+        descriptionOperator17,
         imageOP,
 
 
@@ -164,6 +172,15 @@ export default function Details({ route }) {
                         {descriptionOperator6 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionOperator6}</Text> : null}
                         {descriptionOperator7 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }}>{descriptionOperator7}</Text> : null}
                         {descriptionOperator8 ? <Text preset="h5" style={{ paddingTop: spacing[0], lineHeight: spacing[7] }}>{descriptionOperator8}</Text> : null}
+
+                        {descriptionOperator9 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionOperator9}</Text> : null}
+                        {descriptionOperator10 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionOperator10}</Text> : null}
+                        {descriptionOperator11 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionOperator11}</Text> : null}
+                        {descriptionOperator12 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }}>{descriptionOperator12}</Text> : null}
+                        {descriptionOperator13 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionOperator13}</Text> : null}
+                        {descriptionOperator14 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }}>{descriptionOperator14}</Text> : null}
+                        {descriptionOperator15 ? <Text preset="h5" style={{ paddingTop: spacing[0], lineHeight: spacing[7] }}>{descriptionOperator15}</Text> : null}
+
 
 
 
