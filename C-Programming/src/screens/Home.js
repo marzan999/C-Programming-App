@@ -148,7 +148,18 @@ export const C_TOPIC_LIST = [
     {
         name: 'Switch statements',
         color: '#1ec2a4',
-        description2: [],
+        imageSW1: require("../../assets/sw1.png"),
+        descriptionSwitchStatement1: 'C switch Statement',
+        descriptionSwitchStatement2: 'The switch statement allows us to execute one code block among many alternatives.\n\nYou can do the same thing with the if...else..if ladder. However, the syntax of the switch statement is much easier to read and write.',
+        descriptionSwitchStatement3: 'Syntax of switch...case\n',
+        descriptionSwitchStatement4: 'switch (expression)\n{\ncase constant1:\n// statements\nbreak;\n\ncase constant2:\n// statements\nbreak;\n.\n.\n.\ndefault:\n// default statements\n}',
+        descriptionSwitchStatement5: 'How does the switch statement work?\n',
+        descriptionSwitchStatement6: 'The expression is evaluated once and compared with the values of each case label.\n\nIf there is a match, the corresponding statements after the matching label are executed. For example, if the value of the expression is equal to constant2, statements after case constant2: are executed until break is encountered.\n\nIf there is no match, the default statements are executed.',
+        descriptionSwitchStatement7: 'switch Statement Flowchart\n',
+        descriptionSwitchStatement8: '',
+        descriptionSwitchStatement9: '',
+        descriptionSwitchStatement10: '',
+        descriptionSwitchStatement11: '',
 
     },
 

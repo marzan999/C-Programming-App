@@ -88,7 +88,15 @@ export default function Details({ route }) {
         imageOP3,
         imageOP4,
         imageOP5,
-        imageOP6
+        imageOP6,
+        imageSW1,
+        descriptionSwitchStatement1,
+        descriptionSwitchStatement2,
+        descriptionSwitchStatement3,
+        descriptionSwitchStatement4,
+        descriptionSwitchStatement5,
+        descriptionSwitchStatement6,
+        descriptionSwitchStatement7,
 
 
 
@@ -195,6 +203,18 @@ export default function Details({ route }) {
                         {descriptionOperator36 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionOperator36}</Text> : null}
                         {descriptionOperator37 ? <Text preset="h5" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionOperator37}</Text> : null}
                         {imageOP6 ? <Image source={imageOP6} style={{ alignSelf: 'center', width: 400, height: 200, paddingTop: 300 }} resizeMode='contain' /> : null}
+
+
+
+
+                        {descriptionSwitchStatement1 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionSwitchStatement1}</Text> : null}
+                        {descriptionSwitchStatement2 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionSwitchStatement2}</Text> : null}
+                        {descriptionSwitchStatement3 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionSwitchStatement3}</Text> : null}
+                        {descriptionSwitchStatement4 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }}>{descriptionSwitchStatement4}</Text> : null}
+                        {descriptionSwitchStatement5 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionSwitchStatement5}</Text> : null}
+                        {descriptionSwitchStatement6 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionSwitchStatement6}</Text> : null}
+                        {descriptionSwitchStatement7 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionSwitchStatement7}</Text> : null}
+                        {imageSW1 ? <Image source={imageSW1} style={{ alignSelf: 'center', width: 600, height: 500, paddingTop: 300 }} resizeMode='contain' /> : null}
 
 
 
