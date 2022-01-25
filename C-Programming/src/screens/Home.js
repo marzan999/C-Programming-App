@@ -156,10 +156,13 @@ export const C_TOPIC_LIST = [
         descriptionSwitchStatement5: 'How does the switch statement work?\n',
         descriptionSwitchStatement6: 'The expression is evaluated once and compared with the values of each case label.\n\nIf there is a match, the corresponding statements after the matching label are executed. For example, if the value of the expression is equal to constant2, statements after case constant2: are executed until break is encountered.\n\nIf there is no match, the default statements are executed.',
         descriptionSwitchStatement7: 'switch Statement Flowchart\n',
-        descriptionSwitchStatement8: '',
-        descriptionSwitchStatement9: '',
-        descriptionSwitchStatement10: '',
-        descriptionSwitchStatement11: '',
+        descriptionSwitchStatement8: 'Example: Simple Calculator\n',
+        descriptionSwitchStatement9: '// Program to create a simple calculator\n#include <stdio.h>\n\nint main() {\nchar operation;\ndouble n1, n2;\n\nprintf("Enter an operator (+, -, *, /): ");\nscanf("%c", &operation);\nprintf("Enter two operands: ");\nscanf("%lf %lf",&n1, &n2);\n\nswitch(operation)\n{\ncase  + :\nprintf("%.1lf + %.1lf = %.1lf",n1, n2, n1+n2);\n\nbreak;\n\ncase  - :\nprintf("%.1lf - %.1lf = %.1lf",n1, n2, n1-n2);\n\nbreak;\n\ncase  * :\nprintf("%.1lf * %.1lf = %.1lf",n1, n2, n1*n2);\n\nbreak;\n\ncase  / :\n\nprintf("%.1lf / %.1lf = %.1lf",n1, n2, n1/n2);\n\nbreak;\n\n// operator does not match any case constant +, -, *, /\ndefault:\nprintf("Error! operator is not correct");\n}\n\nreturn 0;\n}',
+        descriptionSwitchStatement10: 'Output\n',
+        descriptionSwitchStatement11: 'Enter an operator (+, -, *, /): -\nEnter two operands: 32.5\n12.4\n32.5 - 12.4 = 20.1',
+        descriptionSwitchStatement12: 'The - operator entered by the user is stored in the operation variable. And, two operands 32.5 and 12.4 are stored in variables n1 and n2 respectively.\n\nSince the operation is -, the control of the program jumps to',
+        descriptionSwitchStatement13: 'printf("%.1lf - %.1lf = %.1lf", n1, n2, n1-n2);',
+        descriptionSwitchStatement14: 'Finally, the break statement terminates the switch statement.',
 
     },
 
