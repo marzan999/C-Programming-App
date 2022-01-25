@@ -82,10 +82,13 @@ export default function Details({ route }) {
         descriptionOperator33,
         descriptionOperator34,
         descriptionOperator35,
+        descriptionOperator36,
+        descriptionOperator37,
         imageOP,
         imageOP3,
         imageOP4,
         imageOP5,
+        imageOP6
 
 
 
@@ -188,6 +191,10 @@ export default function Details({ route }) {
                         {descriptionOperator33 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }}>{descriptionOperator33}</Text> : null}
                         {descriptionOperator34 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionOperator34}</Text> : null}
                         {descriptionOperator35 ? <Text preset="h5" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionOperator35}</Text> : null}
+
+                        {descriptionOperator36 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionOperator36}</Text> : null}
+                        {descriptionOperator37 ? <Text preset="h5" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionOperator37}</Text> : null}
+                        {imageOP6 ? <Image source={imageOP6} style={{ alignSelf: 'center', width: 400, height: 200, paddingTop: 300 }} resizeMode='contain' /> : null}
 
 
 
