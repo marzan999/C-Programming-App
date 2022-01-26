@@ -134,7 +134,16 @@ export const C_TOPIC_LIST = [
     {
         name: 'Conditions',
         color: '#DEF4FC',
-        description2: [],
+        imageCON: require("../../assets/con1.png"),
+        descriptionConditions1: 'Conditional Statements in C programming are used to make decisions based on the conditions. Conditional statements execute sequentially when there is no condition around the statements. If you put some condition for a block of statements, the execution flow may change based on the result evaluated by the condition. This process is called decision making in ‘C.’\n\nIn ‘C’ programming conditional statements are possible with the help of the following two constructs:\n\n1. If statement\n\n2. If-else statement\n\nIt is also called as branching as a program decides which statement to execute based on the result of the evaluated condition.',
+        descriptionConditions2: '\nC if Statement',
+        descriptionConditions3: 'The syntax of the if statement in C programming is:\n',
+        descriptionConditions4: 'if (test expression)\n{\n// code\n}',
+        descriptionConditions5: 'How if statement works?',
+        descriptionConditions6: 'The if statement evaluates the test expression inside the parenthesis ().\n\nIf the test expression is evaluated to true, statements inside the body of if are executed.\n\nIf the test expression is evaluated to false, statements inside the body of if are not executed.',
+        descriptionConditions7: '',
+        descriptionConditions8: '',
+        descriptionConditions9: '',
 
     },
 
