@@ -105,6 +105,7 @@ export default function Details({ route }) {
         descriptionSwitchStatement13,
         descriptionSwitchStatement14,
         imageCON,
+        imageCON2,
         descriptionConditions1,
         descriptionConditions2,
         descriptionConditions3,
@@ -114,6 +115,18 @@ export default function Details({ route }) {
         descriptionConditions7,
         descriptionConditions8,
         descriptionConditions9,
+        descriptionConditions10,
+        descriptionConditions11,
+        descriptionConditions12,
+        descriptionConditions13,
+        descriptionConditions14,
+        descriptionConditions15,
+        descriptionConditions16,
+        descriptionConditions17,
+        descriptionConditions18,
+        descriptionConditions19,
+        descriptionConditions20,
+        descriptionConditions21,
 
 
 
@@ -248,8 +261,22 @@ export default function Details({ route }) {
                         {descriptionConditions5 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionConditions5}</Text> : null}
                         {descriptionConditions6 ? <Text preset="h5" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionConditions6}</Text> : null}
                         {imageCON ? <Image source={imageCON} style={{ alignSelf: 'center', width: 400, height: 200, paddingTop: 100 }} resizeMode='contain' /> : null}
-
-
+                        {descriptionConditions7 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionConditions7}</Text> : null}
+                        {descriptionConditions8 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionConditions8}</Text> : null}
+                        {descriptionConditions9 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionConditions9}</Text> : null}
+                        {descriptionConditions10 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionConditions10}</Text> : null}
+                        {descriptionConditions11 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionConditions11}</Text> : null}
+                        {descriptionConditions12 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionConditions12}</Text> : null}
+                        {descriptionConditions13 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionConditions13}</Text> : null}
+                        {descriptionConditions14 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionConditions14}</Text> : null}
+                        {descriptionConditions15 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionConditions15}</Text> : null}
+                        {descriptionConditions16 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionConditions16}</Text> : null}
+                        {imageCON2 ? <Image source={imageCON2} style={{ alignSelf: 'center', width: 400, height: 200, paddingTop: 100 }} resizeMode='contain' /> : null}
+                        {descriptionConditions17 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionConditions17}</Text> : null}
+                        {descriptionConditions18 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionConditions18}</Text> : null}
+                        {descriptionConditions19 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionConditions19}</Text> : null}
+                        {descriptionConditions20 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionConditions20}</Text> : null}
+                        {descriptionConditions21 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionConditions21}</Text> : null}
 
                     </View>
                 </View>
