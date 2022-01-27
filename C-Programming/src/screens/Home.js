@@ -20,10 +20,6 @@ export const C_TOPIC_LIST = [
         descriptionWisC: '\n\nSome examples of the use of C are -',
         descriptionWisC2: '\nOperating Systems\n\nLanguage Compilers\n\nAssemblers\n\nText Editors\n\nPrint Spoolers\n\nNetwork Drivers\n\nModern Programs\n\nDatabases\n\nLanguage Interpreters\n\nUtilities',
 
-        //description2: ['Operating Systems', 'Language Compilers', 'Assemblers', 'Text Editors', 'Print Spoolers', 'Network Drivers', 'Modern Programs', 'Databases', 'Language Interpreters', 'Utilities'],
-        // code: [],
-        // output: [],
-
     },
 
     {
@@ -195,24 +191,37 @@ export const C_TOPIC_LIST = [
     },
 
     {
-        name: 'Logical operators',
-        color: '#2d68f0',
-        description2: [],
-
-    },
-
-    {
-        name: 'While loop',
+        name: 'loop',
         color: '#DEF4FC',
-        description2: [],
+        imageWhile: require("../../assets/while.png"),
+        imageFor: require("../../assets/for.png"),
+        descriptionloop1: 'In programming, loops are used to repeat a block of code until a specified condition is met.\n\nC programming has three types of loops.\n\n 1. for loop\n2. while loop\n3. do...while loop',
+        descriptionloop2: '\nwhile loop',
+        descriptionloop3: 'The syntax of the while loop is:\n',
+        descriptionloop4: 'while (testExpression) {\n// the body of the loop \n}',
+        descriptionloop5: 'How while loop works?',
+        descriptionloop6: ' - The while loop evaluates the testExpression inside the parentheses ().\n - If testExpression is true, statements inside the body of while loop are executed. Then, testExpression is evaluated again.\n - The process goes on until testExpression is evaluated to false.\n - If testExpression is false, the loop terminates (ends).',
+        descriptionloop7: 'Flowchart of while loop\n',
+        descriptionloop8: 'Example: while loop\n',
+        descriptionloop9: '// Print numbers from 1 to 5\n\n#include <stdio.h>\nint main() {\nint i = 1;\n\nwhile (i <= 5) {\nprintf("%d\n", i);\n++i;\n}\n\nreturn 0;\n}',
+        descriptionloop10: 'Output\n',
+        descriptionloop11: '1\n2\n3\n4\n5',
+        descriptionloop12: 'Here, we have initialized i to 1.\n\n1. When i = 1, the test expression i <= 5 is true. Hence, the body of the while loop is executed. This prints 1 on the screen and the value of i is increased to 2.\n2. Now, i = 2, the test expression i <= 5 is again true. The body of the while loop is executed again. This prints 2 on the screen and the value of i is increased to 3.\n3. This process goes on until i becomes 6. Then, the test expression i <= 5 will be false and the loop terminates.',
 
-    },
+        descriptionloop13: 'for Loop',
+        descriptionloop14: 'The syntax of the for loop is:\n',
+        descriptionloop15: 'for (initializationStatement; testExpression; updateStatement)\n{\n    // statements inside the body of loop\n}',
+        descriptionloop16: 'How for loop works?\n',
+        descriptionloop17: ' - The initialization statement is executed only once.\n - Then, the test expression is evaluated. If the test expression is evaluated to false, the for loop is terminated.\n - However, if the test expression is evaluated to true, statements inside the body of the for loop are executed, and the update expression is updated.\n - Again the test expression is evaluated.\n\nThis process goes on until the test expression is false. When the test expression is false, the loop terminates.',
 
-    {
-        name: 'For loop',
-        color: '#838391',
-        description2: [],
-
+        descriptionloop18: 'for loop Flowchart\n',
+        descriptionloop19: 'Example: for loop\n',
+        descriptionloop20: '// Print numbers from 1 to 10\n#include <stdio.h>\n\nint main() {\nint i;\n\nfor (i = 1; i < 11; ++i)\n{\nprintf("%d ", i);\n}\nreturn 0;\n}',
+        descriptionloop21: 'Output\n',
+        descriptionloop22: '1 2 3 4 5 6 7 8 9 10',
+        descriptionloop23: '1. i is initialized to 1.\n\n2. The test expression i < 11 is evaluated. Since 1 less than 11 is true, the body of for loop is executed. This will print the 1 (value of i) on the screen.\n\n3. The update statement ++i is executed. Now, the value of i will be 2. Again, the test expression is evaluated to true, and the body of for loop is executed. This will print 2 (value of i) on the screen.\n\n4. Again, the update statement ++i is executed and the test expression i < 11 is evaluated. This process goes on until i becomes 11.\n\n5. When i becomes 11, i < 11 will be false, and the for loop terminates.',
+        descriptionloop24: '',
+        descriptionloop25: '',
     },
 
     {
@@ -375,3 +384,5 @@ export default function Home({ navigation }) {
         </SafeAreaView>
     )
 }
+
+

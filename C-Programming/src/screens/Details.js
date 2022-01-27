@@ -132,6 +132,31 @@ export default function Details({ route }) {
         descriptionNested1,
         descriptionNested2,
         descriptionNested3,
+        imageWhile,
+        imageFor,
+        descriptionloop1,
+        descriptionloop2,
+        descriptionloop3,
+        descriptionloop4,
+        descriptionloop5,
+        descriptionloop6,
+        descriptionloop7,
+        descriptionloop8,
+        descriptionloop9,
+        descriptionloop10,
+        descriptionloop11,
+        descriptionloop12,
+        descriptionloop13,
+        descriptionloop14,
+        descriptionloop15,
+        descriptionloop16,
+        descriptionloop17,
+        descriptionloop18,
+        descriptionloop19,
+        descriptionloop20,
+        descriptionloop21,
+        descriptionloop22,
+        descriptionloop23,
 
 
 
@@ -288,6 +313,32 @@ export default function Details({ route }) {
                         {descriptionNested1 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionNested1}</Text> : null}
                         {descriptionNested2 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionNested2}</Text> : null}
                         {descriptionNested3 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionNested3}</Text> : null}
+
+                        {descriptionloop1 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionloop1}</Text> : null}
+                        {descriptionloop13 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionloop13}</Text> : null}
+                        {descriptionloop14 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionloop14}</Text> : null}
+                        {descriptionloop15 ? <Text preset="h7" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionloop15}</Text> : null}
+                        {descriptionloop16 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionloop16}</Text> : null}
+                        {descriptionloop17 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionloop17}</Text> : null}
+                        {descriptionloop18 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionloop18}</Text> : null}
+                        {imageFor ? <Image source={imageFor} style={{ alignSelf: 'center', width: 400, height: 400, paddingTop: 100 }} resizeMode='contain' /> : null}
+                        {descriptionloop19 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionloop19}</Text> : null}
+                        {descriptionloop20 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionloop20}</Text> : null}
+                        {descriptionloop21 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionloop21}</Text> : null}
+                        {descriptionloop22 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionloop22}</Text> : null}
+                        {descriptionloop23 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionloop23}</Text> : null}
+                        {descriptionloop2 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionloop2}</Text> : null}
+                        {descriptionloop3 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionloop3}</Text> : null}
+                        {descriptionloop4 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionloop4}</Text> : null}
+                        {descriptionloop5 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionloop5}</Text> : null}
+                        {descriptionloop6 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionloop6}</Text> : null}
+                        {descriptionloop7 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionloop7}</Text> : null}
+                        {imageWhile ? <Image source={imageWhile} style={{ alignSelf: 'center', width: 400, height: 200, paddingTop: 300 }} resizeMode='contain' /> : null}
+                        {descriptionloop8 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionloop8}</Text> : null}
+                        {descriptionloop9 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionloop9}</Text> : null}
+                        {descriptionloop10 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionloop10}</Text> : null}
+                        {descriptionloop11 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionloop11}</Text> : null}
+                        {descriptionloop12 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionloop12}</Text> : null}
 
 
 
