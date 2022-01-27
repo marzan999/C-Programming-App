@@ -10,6 +10,8 @@ export default function Details({ route }) {
     const { topic } = route.params;
     const { name,
         description,
+        descriptionWisC,
+        descriptionWisC2,
         descriptionSourceCodeHW,
         descriptionOutputHW,
         image,
@@ -127,6 +129,9 @@ export default function Details({ route }) {
         descriptionConditions19,
         descriptionConditions20,
         descriptionConditions21,
+        descriptionNested1,
+        descriptionNested2,
+        descriptionNested3,
 
 
 
@@ -145,6 +150,8 @@ export default function Details({ route }) {
 
                         {image ? <Image source={image} style={{ alignSelf: 'center', width: 350, height: 200, paddingTop: 300 }} resizeMode='contain' /> : null}
                         {description ? <Text preset="h5" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{description}</Text> : null}
+                        {descriptionWisC ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionWisC}</Text> : null}
+                        {descriptionWisC2 ? <Text preset="h5" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionWisC2}</Text> : null}
                         {description1IO ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{description1IO}</Text> : null}
                         {descriptionIO ? <Text preset="h5" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionIO}</Text> : null}
                         {descriptionINT ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionINT}</Text> : null}
@@ -277,6 +284,12 @@ export default function Details({ route }) {
                         {descriptionConditions19 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionConditions19}</Text> : null}
                         {descriptionConditions20 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionConditions20}</Text> : null}
                         {descriptionConditions21 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionConditions21}</Text> : null}
+
+                        {descriptionNested1 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionNested1}</Text> : null}
+                        {descriptionNested2 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionNested2}</Text> : null}
+                        {descriptionNested3 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionNested3}</Text> : null}
+
+
 
                     </View>
                 </View>

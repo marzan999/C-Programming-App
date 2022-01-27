@@ -16,7 +16,10 @@ export const C_TOPIC_LIST = [
         name: 'What is C',
         color: '#DEF4FC',
         image: require("../../assets/1.png"),
-        description: 'C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers. \n\nIt is said that ‘C’ is a mother of programming language. One can say, C is a base for the programming. If you know ‘C’ you can easily grasp the knowledge of the other programming languages that uses the concept of ‘C’ \n\n\nSome examples of the use of C are -\n\nOperating Systems\n\nLanguage Compilers\n\nAssemblers\n\nText Editors\n\nPrint Spoolers\n\nNetwork Drivers\n\nModern Programs\n\nDatabases\n\nLanguage Interpreters\n\nUtilities',
+        description: 'C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers. \n\nIt is said that ‘C’ is a mother of programming language. One can say, C is a base for the programming. If you know ‘C’ you can easily grasp the knowledge of the other programming languages that uses the concept of ‘C’ ',
+        descriptionWisC: '\n\nSome examples of the use of C are -',
+        descriptionWisC2: '\nOperating Systems\n\nLanguage Compilers\n\nAssemblers\n\nText Editors\n\nPrint Spoolers\n\nNetwork Drivers\n\nModern Programs\n\nDatabases\n\nLanguage Interpreters\n\nUtilities',
+
         //description2: ['Operating Systems', 'Language Compilers', 'Assemblers', 'Text Editors', 'Print Spoolers', 'Network Drivers', 'Modern Programs', 'Databases', 'Language Interpreters', 'Utilities'],
         // code: [],
         // output: [],
@@ -161,9 +164,12 @@ export const C_TOPIC_LIST = [
     },
 
     {
-        name: 'Nested If statements',
+        name: 'Nested if..else statements',
         color: '#CD5128',
-        description2: [],
+        descriptionNested1: 'This program given below relates two integers using either <, > and = similar to the if...else ladders example. However, we will use a nested if...else statement to solve this problem.\n',
+        descriptionNested2: '#include <stdio.h>\nint main() {\nint number1, number2;\nprintf("Enter two integers: ");\nscanf("%d %d", &number1, &number2);\n\nif (number1 >= number2) {\nif (number1 == number2) {\nprintf("Result: %d = %d",number1,number2);\n}\nelse {\nprintf("Result: %d > %d", number1, number2);\n}\n}\nelse {\nprintf("Result: %d < %d",number1, number2);\n}\n\nreturn 0;\n}',
+        descriptionNested3: 'If the body of an if...else statement has only one statement, you do not need to use brackets {}.',
+
 
     },
 
