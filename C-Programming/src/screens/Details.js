@@ -189,6 +189,7 @@ export default function Details({ route }) {
         descriptionBreak14,
         descriptionBreak15,
         descriptionBreak16,
+        imageFunction,
         descriptionFunction1,
         descriptionFunction2,
         descriptionFunction3,
@@ -201,6 +202,8 @@ export default function Details({ route }) {
         descriptionFunction10,
         descriptionFunction11,
         descriptionFunction12,
+        descriptionFunction13,
+        descriptionFunction14,
 
 
 
@@ -432,6 +435,9 @@ export default function Details({ route }) {
                         {descriptionFunction10 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction10}</Text> : null}
                         {descriptionFunction11 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFunction11}</Text> : null}
                         {descriptionFunction12 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction12}</Text> : null}
+                        {descriptionFunction13 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction13}</Text> : null}
+                        {imageFunction ? <Image source={imageFunction} style={{ alignSelf: 'center', width: 400, height: 200, paddingTop: 300 }} resizeMode='contain' /> : null}
+                        {descriptionFunction14 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction14}</Text> : null}
 
 
                     </View>

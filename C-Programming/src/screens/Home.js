@@ -262,6 +262,7 @@ export const C_TOPIC_LIST = [
     {
         name: 'Function',
         color: '#419EBB',
+        imageFunction: require("../../assets/func.png"),
         descriptionFunction1: 'A function is a block of code that performs a specific task.\n\nSuppose, you need to create a program to create a circle and color it. You can create two functions to solve this problem:\n\n - create a circle function\n - create a color function\n\nDividing a complex problem into smaller chunks makes our program easy to understand and reuse.',
         descriptionFunction2: 'Types of function',
         descriptionFunction3: 'There are two types of function in C programming:\n\n - Standard library functions\n - User-defined functions',
@@ -274,6 +275,8 @@ export const C_TOPIC_LIST = [
         descriptionFunction10: 'The execution of a C program begins from the main() function.\n\nWhen the compiler encounters functionName();, control of the program jumps to\n',
         descriptionFunction11: 'void functionName()',
         descriptionFunction12: 'And, the compiler starts executing the codes inside functionName().\n\nThe control of the program jumps back to the main() function once code inside the function definition is executed.',
+        descriptionFunction13: 'How function works in C programming?\n',
+        descriptionFunction14: 'Note, function names are identifiers and should be unique.',
 
     },
 
