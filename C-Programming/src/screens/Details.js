@@ -238,6 +238,7 @@ export default function Details({ route }) {
         descriptionArray29,
         descriptionArray30,
         descriptionArray31,
+        imageMultiD,
         descriptionMultiD1,
         descriptionMultiD2,
         descriptionMultiD3,
@@ -529,9 +530,11 @@ export default function Details({ route }) {
                         {descriptionArray30 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray30}</Text> : null}
                         {descriptionArray31 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray31}</Text> : null}
 
+
                         {descriptionMultiD1 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD1}</Text> : null}
                         {descriptionMultiD2 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionMultiD2}</Text> : null}
                         {descriptionMultiD3 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD3}</Text> : null}
+                        {imageMultiD ? <Image source={imageMultiD} style={{ alignSelf: 'center', width: 400, height: 300, paddingTop: 200 }} resizeMode='contain' /> : null}
                         {descriptionMultiD4 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD4}</Text> : null}
                         {descriptionMultiD5 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionMultiD5}</Text> : null}
                         {descriptionMultiD6 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD6}</Text> : null}

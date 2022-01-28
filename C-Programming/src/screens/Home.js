@@ -327,6 +327,7 @@ export const C_TOPIC_LIST = [
     {
         name: 'Multidimensional Arrays',
         color: '#6f2ed6',
+        imageMultiD: require("../../assets/2da1.png"),
         descriptionMultiD1: 'In C programming, you can create an array of arrays. These arrays are known as multidimensional arrays. For example,\n',
         descriptionMultiD2: 'float x[3][4];',
         descriptionMultiD3: 'Here, x is a two-dimensional (2d) array. The array can hold 12 elements. You can think the array as a table with 3 rows and each row has 4 columns.',
