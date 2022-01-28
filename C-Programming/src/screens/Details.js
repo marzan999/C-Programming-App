@@ -189,6 +189,18 @@ export default function Details({ route }) {
         descriptionBreak14,
         descriptionBreak15,
         descriptionBreak16,
+        descriptionFunction1,
+        descriptionFunction2,
+        descriptionFunction3,
+        descriptionFunction4,
+        descriptionFunction5,
+        descriptionFunction6,
+        descriptionFunction7,
+        descriptionFunction8,
+        descriptionFunction9,
+        descriptionFunction10,
+        descriptionFunction11,
+        descriptionFunction12,
 
 
 
@@ -397,7 +409,6 @@ export default function Details({ route }) {
                         {descriptionBreak6 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionBreak6}</Text> : null}
                         {descriptionBreak7 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionBreak7}</Text> : null}
                         {descriptionBreak8 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionBreak8}</Text> : null}
-
                         {descriptionBreak9 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionBreak9}</Text> : null}
                         {descriptionBreak10 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionBreak10}</Text> : null}
                         {descriptionBreak11 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionBreak11}</Text> : null}
@@ -409,6 +420,18 @@ export default function Details({ route }) {
                         {descriptionBreak16 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionBreak16}</Text> : null}
 
 
+                        {descriptionFunction1 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction1}</Text> : null}
+                        {descriptionFunction2 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction2}</Text> : null}
+                        {descriptionFunction3 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction3}</Text> : null}
+                        {descriptionFunction4 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction4}</Text> : null}
+                        {descriptionFunction5 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction5}</Text> : null}
+                        {descriptionFunction6 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction6}</Text> : null}
+                        {descriptionFunction7 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction7}</Text> : null}
+                        {descriptionFunction8 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction8}</Text> : null}
+                        {descriptionFunction9 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFunction9}</Text> : null}
+                        {descriptionFunction10 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction10}</Text> : null}
+                        {descriptionFunction11 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFunction11}</Text> : null}
+                        {descriptionFunction12 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction12}</Text> : null}
 
 
                     </View>
