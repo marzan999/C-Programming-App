@@ -283,6 +283,9 @@ export const C_TOPIC_LIST = [
     {
         name: 'Arrays',
         color: '#EDA249',
+        imageArray1: require("../../assets/array1.png"),
+        imageArray2: require("../../assets/array2.png"),
+        imageArray3: require("../../assets/array3.png"),
         descriptionArray0: 'An array is a variable that can store multiple values. For example, if you want to store 100 integers, you can create an array for it.\n',
         descriptionArray2: 'int data[100];',
         descriptionArray3: 'How to declare an array?\n',

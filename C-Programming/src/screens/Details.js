@@ -204,6 +204,9 @@ export default function Details({ route }) {
         descriptionFunction12,
         descriptionFunction13,
         descriptionFunction14,
+        imageArray1,
+        imageArray2,
+        imageArray3,
         descriptionArray0,
         descriptionArray2,
         descriptionArray3,
@@ -470,7 +473,7 @@ export default function Details({ route }) {
                         {imageFunction ? <Image source={imageFunction} style={{ alignSelf: 'center', width: 400, height: 200, paddingTop: 300 }} resizeMode='contain' /> : null}
                         {descriptionFunction14 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction14}</Text> : null}
 
-
+                        {imageArray1 ? <Image source={imageArray1} style={{ alignSelf: 'center', width: 400, height: 100, paddingTop: 300 }} resizeMode='contain' /> : null}
                         {descriptionArray0 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray0}</Text> : null}
                         {descriptionArray2 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray2}</Text> : null}
                         {descriptionArray3 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionArray3}</Text> : null}
@@ -480,6 +483,7 @@ export default function Details({ route }) {
                         {descriptionArray7 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray7}</Text> : null}
                         {descriptionArray8 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionArray8}</Text> : null}
                         {descriptionArray9 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray9}</Text> : null}
+                        {imageArray2 ? <Image source={imageArray2} style={{ alignSelf: 'center', width: 400, height: 200, paddingTop: 200 }} resizeMode='contain' /> : null}
                         {descriptionArray10 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionArray10}</Text> : null}
                         {descriptionArray11 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray11}</Text> : null}
                         {descriptionArray12 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionArray12}</Text> : null}
@@ -488,6 +492,7 @@ export default function Details({ route }) {
                         {descriptionArray15 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray15}</Text> : null}
                         {descriptionArray16 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray16}</Text> : null}
                         {descriptionArray17 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray17}</Text> : null}
+                        {imageArray3 ? <Image source={imageArray3} style={{ alignSelf: 'center', width: 400, height: 200, paddingTop: 200 }} resizeMode='contain' /> : null}
                         {descriptionArray18 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray18}</Text> : null}
                         {descriptionArray19 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray19}</Text> : null}
                         {descriptionArray20 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionArray20}</Text> : null}
