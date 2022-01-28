@@ -161,11 +161,35 @@ export const C_TOPIC_LIST = [
 
     {
         name: 'Nested if..else statements',
-        color: '#CD5128',
+        color: '#838391',
         descriptionNested1: 'This program given below relates two integers using either <, > and = similar to the if...else ladders example. However, we will use a nested if...else statement to solve this problem.\n',
         descriptionNested2: '#include <stdio.h>\nint main() {\nint number1, number2;\nprintf("Enter two integers: ");\nscanf("%d %d", &number1, &number2);\n\nif (number1 >= number2) {\nif (number1 == number2) {\nprintf("Result: %d = %d",number1,number2);\n}\nelse {\nprintf("Result: %d > %d", number1, number2);\n}\n}\nelse {\nprintf("Result: %d < %d",number1, number2);\n}\n\nreturn 0;\n}',
         descriptionNested3: 'If the body of an if...else statement has only one statement, you do not need to use brackets {}.',
 
+
+    },
+
+    {
+        name: 'Break and continue',
+        color: '#D14C32',
+        imageBreak: require("../../assets/break.png"),
+        imageContinue: require("../../assets/cont.png"),
+        descriptionBreak1: 'C break',
+        descriptionBreak2: 'The break statement ends the loop immediately when it is encountered. The break statement is almost always used with if...else statement inside the loop.',
+        descriptionBreak3: 'How break statement works?',
+        descriptionBreak4: 'Example: break statement\n',
+        descriptionBreak5: '// Program to calculate the sum of numbers (10 numbers max)\n// If the user enters a negative number, the loop terminates\n#include <stdio.h>\n\nint main() {\n  int i;\n  double number, sum = 0.0;\n\n  for (i = 1; i <= 10; ++i) {\n      printf("Enter n%d: ", i);\n     scanf("%lf", &number);\n\n      // if the user enters a negative number, break the loop\n     if (number < 0.0) {\n         break;\n     }\n\n      sum += number; // sum = sum + number;\n   }\n\n   printf("Sum = %.2lf", sum);\n\n   return 0;\n}',
+        descriptionBreak6: 'Output\n',
+        descriptionBreak7: 'Enter n1: 2.4\nEnter n2: 4.5\nEnter n3: 3.4\nEnter n4: -3\nSum = 10.30',
+        descriptionBreak8: 'This program calculates the sum of a maximum of 10 numbers. Why a maximum of 10 numbers? It is because if the user enters a negative number, the break statement is executed. This will end the for loop, and the sum is displayed.',
+        descriptionBreak9: '\n\nC continue',
+        descriptionBreak10: 'The continue statement skips the current iteration of the loop and continues with the next iteration. The continue statement is almost always used with the if...else statement.',
+        descriptionBreak11: 'How continue statement works?',
+        descriptionBreak12: 'Example: continue statement\n',
+        descriptionBreak13: '// Program to calculate the sum of numbers (10 numbers max)\n// If the user enters a negative number, it is not added to the result\n\n#include <stdio.h>\nint main() {\n   int i;\n   double number, sum = 0.0;\n\n   for (i = 1; i <= 10; ++i) {\n      printf("Enter a n%d: ", i);\n      scanf("%lf", &number);\n\n     if (number < 0.0) {\n\n         continue;\n\n      }\n\n   sum += number;\n   }\n\n   printf("Sum = %.2lf", sum);\n\n   return 0;\n}',
+        descriptionBreak14: 'Output\n',
+        descriptionBreak15: 'Enter n1: 1.1\nEnter n2: 2.2\nEnter n3: 5.5\nEnter n4: 4.4\nEnter n5: -3.4\nEnter n6: -45.5\nEnter n7: 34.5\nEnter n8: -4.2\nEnter n9: -1000\nEnter n10: 12\nSum = 59.70',
+        descriptionBreak16: 'In this program, when the user enters a positive number, the sum is calculated using sum += number; statement.\n\nWhen the user enters a negative number, the continue statement is executed and it skips the negative number from the calculation.',
 
     },
 

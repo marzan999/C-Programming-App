@@ -171,6 +171,24 @@ export default function Details({ route }) {
         descriptionloop34,
         descriptionloop35,
         descriptionloop36,
+        imageBreak,
+        imageContinue,
+        descriptionBreak1,
+        descriptionBreak2,
+        descriptionBreak3,
+        descriptionBreak4,
+        descriptionBreak5,
+        descriptionBreak6,
+        descriptionBreak7,
+        descriptionBreak8,
+        descriptionBreak9,
+        descriptionBreak10,
+        descriptionBreak11,
+        descriptionBreak12,
+        descriptionBreak13,
+        descriptionBreak14,
+        descriptionBreak15,
+        descriptionBreak16,
 
 
 
@@ -369,6 +387,29 @@ export default function Details({ route }) {
                         {descriptionloop34 ? <Text preset="h5" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionloop34}</Text> : null}
                         {descriptionloop35 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionloop35}</Text> : null}
                         {descriptionloop36 ? <Text preset="h5" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionloop36}</Text> : null}
+
+                        {descriptionBreak1 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionBreak1}</Text> : null}
+                        {descriptionBreak2 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionBreak2}</Text> : null}
+                        {descriptionBreak3 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionBreak3}</Text> : null}
+                        {imageBreak ? <Image source={imageBreak} style={{ alignSelf: 'center', width: 400, height: 200, paddingTop: 300 }} resizeMode='contain' /> : null}
+                        {descriptionBreak4 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionBreak4}</Text> : null}
+                        {descriptionBreak5 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionBreak5}</Text> : null}
+                        {descriptionBreak6 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionBreak6}</Text> : null}
+                        {descriptionBreak7 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionBreak7}</Text> : null}
+                        {descriptionBreak8 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionBreak8}</Text> : null}
+
+                        {descriptionBreak9 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionBreak9}</Text> : null}
+                        {descriptionBreak10 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionBreak10}</Text> : null}
+                        {descriptionBreak11 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionBreak11}</Text> : null}
+                        {imageContinue ? <Image source={imageContinue} style={{ alignSelf: 'center', width: 400, height: 200, paddingTop: 300 }} resizeMode='contain' /> : null}
+                        {descriptionBreak12 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionBreak12}</Text> : null}
+                        {descriptionBreak13 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionBreak13}</Text> : null}
+                        {descriptionBreak14 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionBreak14}</Text> : null}
+                        {descriptionBreak15 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionBreak15}</Text> : null}
+                        {descriptionBreak16 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionBreak16}</Text> : null}
+
+
+
 
                     </View>
                 </View>
