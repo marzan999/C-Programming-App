@@ -204,6 +204,37 @@ export default function Details({ route }) {
         descriptionFunction12,
         descriptionFunction13,
         descriptionFunction14,
+        descriptionArray0,
+        descriptionArray2,
+        descriptionArray3,
+        descriptionArray4,
+        descriptionArray5,
+        descriptionArray6,
+        descriptionArray7,
+        descriptionArray8,
+        descriptionArray9,
+        descriptionArray10,
+        descriptionArray11,
+        descriptionArray12,
+        descriptionArray13,
+        descriptionArray14,
+        descriptionArray15,
+        descriptionArray16,
+        descriptionArray17,
+        descriptionArray18,
+        descriptionArray19,
+        descriptionArray20,
+        descriptionArray21,
+        descriptionArray22,
+        descriptionArray23,
+        descriptionArray24,
+        descriptionArray25,
+        descriptionArray26,
+        descriptionArray27,
+        descriptionArray28,
+        descriptionArray29,
+        descriptionArray30,
+        descriptionArray31,
 
 
 
@@ -438,6 +469,40 @@ export default function Details({ route }) {
                         {descriptionFunction13 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction13}</Text> : null}
                         {imageFunction ? <Image source={imageFunction} style={{ alignSelf: 'center', width: 400, height: 200, paddingTop: 300 }} resizeMode='contain' /> : null}
                         {descriptionFunction14 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction14}</Text> : null}
+
+
+                        {descriptionArray0 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray0}</Text> : null}
+                        {descriptionArray2 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray2}</Text> : null}
+                        {descriptionArray3 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionArray3}</Text> : null}
+                        {descriptionArray4 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray4}</Text> : null}
+                        {descriptionArray5 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray5}</Text> : null}
+                        {descriptionArray6 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray6}</Text> : null}
+                        {descriptionArray7 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray7}</Text> : null}
+                        {descriptionArray8 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionArray8}</Text> : null}
+                        {descriptionArray9 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray9}</Text> : null}
+                        {descriptionArray10 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionArray10}</Text> : null}
+                        {descriptionArray11 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray11}</Text> : null}
+                        {descriptionArray12 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionArray12}</Text> : null}
+                        {descriptionArray13 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray13}</Text> : null}
+                        {descriptionArray14 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray14}</Text> : null}
+                        {descriptionArray15 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray15}</Text> : null}
+                        {descriptionArray16 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray16}</Text> : null}
+                        {descriptionArray17 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray17}</Text> : null}
+                        {descriptionArray18 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray18}</Text> : null}
+                        {descriptionArray19 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray19}</Text> : null}
+                        {descriptionArray20 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionArray20}</Text> : null}
+                        {descriptionArray21 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray21}</Text> : null}
+                        {descriptionArray22 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionArray22}</Text> : null}
+                        {descriptionArray23 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray23}</Text> : null}
+                        {descriptionArray24 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray24}</Text> : null}
+                        {descriptionArray25 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray25}</Text> : null}
+                        {descriptionArray26 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray26}</Text> : null}
+                        {descriptionArray27 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionArray27}</Text> : null}
+                        {descriptionArray28 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray28}</Text> : null}
+                        {descriptionArray29 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray29}</Text> : null}
+                        {descriptionArray30 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray30}</Text> : null}
+                        {descriptionArray31 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray31}</Text> : null}
+
 
 
                     </View>
