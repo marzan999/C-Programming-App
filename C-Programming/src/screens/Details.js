@@ -238,6 +238,27 @@ export default function Details({ route }) {
         descriptionArray29,
         descriptionArray30,
         descriptionArray31,
+        descriptionMultiD1,
+        descriptionMultiD2,
+        descriptionMultiD3,
+        descriptionMultiD4,
+        descriptionMultiD5,
+        descriptionMultiD6,
+        descriptionMultiD7,
+        descriptionMultiD8,
+        descriptionMultiD9,
+        descriptionMultiD10,
+        descriptionMultiD11,
+        descriptionMultiD12,
+        descriptionMultiD13,
+        descriptionMultiD14,
+        descriptionMultiD15,
+        descriptionMultiD16,
+        descriptionMultiD17,
+        descriptionMultiD18,
+        descriptionMultiD19,
+        descriptionMultiD20,
+        descriptionMultiD21,
 
 
 
@@ -507,6 +528,28 @@ export default function Details({ route }) {
                         {descriptionArray29 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray29}</Text> : null}
                         {descriptionArray30 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray30}</Text> : null}
                         {descriptionArray31 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray31}</Text> : null}
+
+                        {descriptionMultiD1 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD1}</Text> : null}
+                        {descriptionMultiD2 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionMultiD2}</Text> : null}
+                        {descriptionMultiD3 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD3}</Text> : null}
+                        {descriptionMultiD4 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD4}</Text> : null}
+                        {descriptionMultiD5 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionMultiD5}</Text> : null}
+                        {descriptionMultiD6 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD6}</Text> : null}
+                        {descriptionMultiD7 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD7}</Text> : null}
+                        {descriptionMultiD8 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD8}</Text> : null}
+                        {descriptionMultiD9 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD9}</Text> : null}
+                        {descriptionMultiD10 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionMultiD10}</Text> : null}
+                        {descriptionMultiD11 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD11}</Text> : null}
+                        {descriptionMultiD12 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD12}</Text> : null}
+                        {descriptionMultiD13 ? <Text preset="h7" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionMultiD13}</Text> : null}
+                        {descriptionMultiD14 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD14}</Text> : null}
+                        {descriptionMultiD15 ? <Text preset="h7" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionMultiD15}</Text> : null}
+                        {descriptionMultiD16 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD16}</Text> : null}
+                        {descriptionMultiD17 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionMultiD17}</Text> : null}
+                        {descriptionMultiD18 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD18}</Text> : null}
+                        {descriptionMultiD19 ? <Text preset="h7" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionMultiD19}</Text> : null}
+                        {descriptionMultiD20 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD20}</Text> : null}
+                        {descriptionMultiD21 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[9], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionMultiD21}</Text> : null}
 
 
 
