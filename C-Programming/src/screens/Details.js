@@ -260,6 +260,38 @@ export default function Details({ route }) {
         descriptionMultiD19,
         descriptionMultiD20,
         descriptionMultiD21,
+        descriptionFA1,
+        descriptionFA2,
+        descriptionFA3,
+        descriptionFA4,
+        descriptionFA5,
+        descriptionFA6,
+        descriptionFA7,
+        descriptionFA8,
+        descriptionFA9,
+        descriptionFA9a,
+        descriptionFA10,
+        descriptionFA11,
+        descriptionFA12,
+        descriptionFA13,
+        descriptionFA14,
+        descriptionFA15,
+        descriptionFA16,
+        descriptionFA17,
+        descriptionFA18,
+        descriptionFA19,
+        descriptionFA20,
+        descriptionFA21,
+        descriptionFA22,
+        descriptionFA23,
+        descriptionFA24,
+        descriptionFA25,
+        descriptionFA26,
+        descriptionFA27,
+        descriptionFA28,
+        descriptionFA29,
+        descriptionFA30,
+
 
 
 
@@ -553,6 +585,38 @@ export default function Details({ route }) {
                         {descriptionMultiD19 ? <Text preset="h7" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionMultiD19}</Text> : null}
                         {descriptionMultiD20 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionMultiD20}</Text> : null}
                         {descriptionMultiD21 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[9], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionMultiD21}</Text> : null}
+
+                        {descriptionFA1 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA1}</Text> : null}
+                        {descriptionFA2 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA2}</Text> : null}
+                        {descriptionFA3 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA3}</Text> : null}
+                        {descriptionFA4 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA4}</Text> : null}
+                        {descriptionFA5 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA5}</Text> : null}
+                        {descriptionFA6 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFA6}</Text> : null}
+                        {descriptionFA7 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA7}</Text> : null}
+                        {descriptionFA8 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFA8}</Text> : null}
+                        {descriptionFA9 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA9}</Text> : null}
+                        {descriptionFA9a ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFA9a}</Text> : null}
+                        {descriptionFA10 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA10}</Text> : null}
+                        {descriptionFA11 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFA11}</Text> : null}
+                        {descriptionFA12 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA12}</Text> : null}
+                        {descriptionFA13 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFA13}</Text> : null}
+                        {descriptionFA14 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA14}</Text> : null}
+                        {descriptionFA15 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFA15}</Text> : null}
+                        {descriptionFA16 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA16}</Text> : null}
+                        {descriptionFA17 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFA17}</Text> : null}
+                        {descriptionFA18 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA18}</Text> : null}
+                        {descriptionFA19 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFA19}</Text> : null}
+                        {descriptionFA20 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA20}</Text> : null}
+                        {descriptionFA21 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA21}</Text> : null}
+                        {descriptionFA22 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA22}</Text> : null}
+                        {descriptionFA23 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA23}</Text> : null}
+                        {descriptionFA24 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFA24}</Text> : null}
+                        {descriptionFA25 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA25}</Text> : null}
+                        {descriptionFA26 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFA26}</Text> : null}
+                        {descriptionFA27 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA27}</Text> : null}
+                        {descriptionFA28 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFA28}</Text> : null}
+                        {descriptionFA29 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFA29}</Text> : null}
+                        {descriptionFA30 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFA30}</Text> : null}
 
 
 
