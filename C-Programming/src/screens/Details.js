@@ -328,7 +328,46 @@ export default function Details({ route }) {
         descriptionPointers35,
         descriptionPointers36,
         descriptionPointers37,
-
+        descriptionString1,
+        descriptionString2,
+        descriptionString3,
+        descriptionString4,
+        descriptionString5,
+        descriptionString6,
+        descriptionString7,
+        descriptionString8,
+        descriptionString9,
+        descriptionString10,
+        descriptionString11,
+        descriptionString12,
+        descriptionString13,
+        descriptionString14,
+        descriptionString15,
+        descriptionString16,
+        descriptionString17,
+        descriptionString18,
+        descriptionString19,
+        descriptionString20,
+        descriptionString21,
+        descriptionString22,
+        descriptionString23,
+        descriptionString24,
+        descriptionString25,
+        descriptionString26,
+        descriptionString27,
+        descriptionString28,
+        descriptionString29,
+        descriptionString30,
+        descriptionString31,
+        descriptionString32,
+        descriptionString33,
+        descriptionString34,
+        descriptionString35,
+        descriptionString36,
+        descriptionString37,
+        descriptionString38,
+        descriptionString39,
+        descriptionString40
 
 
     } = topic;
@@ -693,6 +732,49 @@ export default function Details({ route }) {
                         {descriptionPointers35 ? <Text preset="h7" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionPointers35}</Text> : null}
                         {descriptionPointers36 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionPointers36}</Text> : null}
                         {descriptionPointers37 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionPointers37}</Text> : null}
+
+
+
+                        {descriptionString1 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString1}</Text> : null}
+                        {descriptionString2 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionString2}</Text> : null}
+                        {descriptionString3 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString3}</Text> : null}
+                        {descriptionString4 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString4}</Text> : null}
+                        {descriptionString5 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString5}</Text> : null}
+                        {descriptionString6 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionString6}</Text> : null}
+                        {descriptionString7 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString7}</Text> : null}
+                        {descriptionString8 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString8}</Text> : null}
+                        {descriptionString9 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString9}</Text> : null}
+                        {descriptionString10 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionString10}</Text> : null}
+                        {descriptionString11 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString11}</Text> : null}
+                        {descriptionString12 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionString12}</Text> : null}
+                        {descriptionString13 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString13}</Text> : null}
+                        {descriptionString14 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString14}</Text> : null}
+                        {descriptionString15 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString15}</Text> : null}
+                        {descriptionString16 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionString16}</Text> : null}
+                        {descriptionString17 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString17}</Text> : null}
+                        {descriptionString18 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString18}</Text> : null}
+                        {descriptionString19 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString19}</Text> : null}
+                        {descriptionString20 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionString20}</Text> : null}
+                        {descriptionString21 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString21}</Text> : null}
+                        {descriptionString22 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionString22}</Text> : null}
+                        {descriptionString23 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString23}</Text> : null}
+                        {descriptionString24 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionString24}</Text> : null}
+                        {descriptionString25 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString25}</Text> : null}
+                        {descriptionString26 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString26}</Text> : null}
+                        {descriptionString27 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString27}</Text> : null}
+                        {descriptionString28 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString28}</Text> : null}
+                        {descriptionString29 ? <Text preset="h7" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionString29}</Text> : null}
+                        {descriptionString30 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString30}</Text> : null}
+                        {descriptionString31 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionString31}</Text> : null}
+                        {descriptionString32 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString32}</Text> : null}
+                        {descriptionString33 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString33}</Text> : null}
+                        {descriptionString34 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString34}</Text> : null}
+                        {descriptionString35 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString35}</Text> : null}
+                        {descriptionString36 ? <Text preset="h7" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionString36}</Text> : null}
+                        {descriptionString37 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString37}</Text> : null}
+                        {descriptionString38 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString38}</Text> : null}
+                        {descriptionString39 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString39}</Text> : null}
+                        {descriptionString40 ? <Text preset="h7" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionString40}</Text> : null}
 
 
 
