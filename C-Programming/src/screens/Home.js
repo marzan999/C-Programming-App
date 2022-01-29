@@ -436,6 +436,9 @@ export const C_TOPIC_LIST = [
     {
         name: 'String',
         color: '#CD5128',
+        imageStr1: require("../../assets/str1.png"),
+        imageStr2: require("../../assets/str2.png"),
+        imageStr3: require("../../assets/str3.png"),
         descriptionString1: "In C programming, a string is a sequence of characters terminated with a null character. \n\nFor example:\n",
         descriptionString2: 'char c[] = "c string";',
         descriptionString3: 'When the compiler encounters a sequence of characters enclosed in the double quotation marks, it appends a null character \0 at the end by default.',
