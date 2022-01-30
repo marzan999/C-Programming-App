@@ -190,6 +190,8 @@ export default function Details({ route }) {
         descriptionBreak15,
         descriptionBreak16,
         imageFunction,
+        imageFunction2,
+        imageFunction3,
         descriptionFunction1,
         descriptionFunction2,
         descriptionFunction3,
@@ -204,6 +206,31 @@ export default function Details({ route }) {
         descriptionFunction12,
         descriptionFunction13,
         descriptionFunction14,
+        descriptionFunction15,
+        descriptionFunction16,
+        descriptionFunction17,
+        descriptionFunction18,
+        descriptionFunction19,
+        descriptionFunction20,
+        descriptionFunction21,
+        descriptionFunction22,
+        descriptionFunction23,
+        descriptionFunction24,
+        descriptionFunction25,
+        descriptionFunction26,
+        descriptionFunction27,
+        descriptionFunction28,
+        descriptionFunction29,
+        descriptionFunction30,
+        descriptionFunction31,
+        descriptionFunction32,
+        descriptionFunction33,
+        descriptionFunction34,
+        descriptionFunction35,
+        descriptionFunction36,
+        descriptionFunction37,
+        descriptionFunction38,
+        descriptionFunction39,
         imageArray1,
         imageArray2,
         imageArray3,
@@ -612,9 +639,36 @@ export default function Details({ route }) {
                         {descriptionFunction11 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFunction11}</Text> : null}
                         {descriptionFunction12 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction12}</Text> : null}
                         {descriptionFunction13 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction13}</Text> : null}
-                        {imageFunction ? <Image source={imageFunction} style={{ alignSelf: 'center', width: 400, height: 200, paddingTop: 300 }} resizeMode='contain' /> : null}
+                        {imageFunction ? <Image source={imageFunction} style={{ alignSelf: 'center', width: 400, height: 300, paddingTop: 400 }} resizeMode='contain' /> : null}
                         {descriptionFunction14 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction14}</Text> : null}
 
+                        {descriptionFunction15 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction15}</Text> : null}
+                        {descriptionFunction16 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction16}</Text> : null}
+                        {descriptionFunction17 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction17}</Text> : null}
+                        {descriptionFunction18 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFunction18}</Text> : null}
+                        {descriptionFunction19 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction19}</Text> : null}
+                        {descriptionFunction20 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction20}</Text> : null}
+                        {descriptionFunction21 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction21}</Text> : null}
+                        {descriptionFunction22 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFunction22}</Text> : null}
+                        {descriptionFunction23 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction23}</Text> : null}
+                        {descriptionFunction24 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction24}</Text> : null}
+                        {descriptionFunction25 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction25}</Text> : null}
+                        {descriptionFunction26 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction26}</Text> : null}
+                        {descriptionFunction27 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFunction27}</Text> : null}
+                        {descriptionFunction28 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction28}</Text> : null}
+                        {descriptionFunction29 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction29}</Text> : null}
+                        {descriptionFunction30 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction30}</Text> : null}
+                        {descriptionFunction31 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction31}</Text> : null}
+                        {imageFunction2 ? <Image source={imageFunction2} style={{ alignSelf: 'center', width: 500, height: 400, paddingTop: 400 }} resizeMode='contain' /> : null}
+                        {descriptionFunction32 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction32}</Text> : null}
+                        {descriptionFunction33 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction33}</Text> : null}
+                        {descriptionFunction34 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction34}</Text> : null}
+                        {imageFunction3 ? <Image source={imageFunction3} style={{ alignSelf: 'center', width: 400, height: 300, paddingTop: 300 }} resizeMode='contain' /> : null}
+                        {descriptionFunction35 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction35}</Text> : null}
+                        {descriptionFunction36 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFunction36}</Text> : null}
+                        {descriptionFunction37 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction37}</Text> : null}
+                        {descriptionFunction38 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionFunction38}</Text> : null}
+                        {descriptionFunction39 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction39}</Text> : null}
                         {imageArray1 ? <Image source={imageArray1} style={{ alignSelf: 'center', width: 400, height: 100, paddingTop: 300 }} resizeMode='contain' /> : null}
                         {descriptionArray0 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionArray0}</Text> : null}
                         {descriptionArray2 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionArray2}</Text> : null}
