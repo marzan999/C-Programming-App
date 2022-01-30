@@ -231,6 +231,18 @@ export default function Details({ route }) {
         descriptionFunction37,
         descriptionFunction38,
         descriptionFunction39,
+        imageRec1,
+        imageRec2,
+        descriptionRecursive1,
+        descriptionRecursive2,
+        descriptionRecursive3,
+        descriptionRecursive4,
+        descriptionRecursive5,
+        descriptionRecursive6,
+        descriptionRecursive7,
+        descriptionRecursive8,
+        descriptionRecursive9,
+        descriptionRecursive10,
         imageArray1,
         imageArray2,
         imageArray3,
@@ -641,6 +653,20 @@ export default function Details({ route }) {
                         {descriptionFunction13 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction13}</Text> : null}
                         {imageFunction ? <Image source={imageFunction} style={{ alignSelf: 'center', width: 400, height: 300, paddingTop: 400 }} resizeMode='contain' /> : null}
                         {descriptionFunction14 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction14}</Text> : null}
+
+
+                        {descriptionRecursive1 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionRecursive1}</Text> : null}
+                        {descriptionRecursive2 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionRecursive2}</Text> : null}
+                        {descriptionRecursive3 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionRecursive3}</Text> : null}
+                        {descriptionRecursive4 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionRecursive4}</Text> : null}
+                        {imageRec1 ? <Image source={imageRec1} style={{ alignSelf: 'center', width: 400, height: 300, paddingTop: 300 }} resizeMode='contain' /> : null}
+                        {descriptionRecursive5 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionRecursive5}</Text> : null}
+                        {descriptionRecursive6 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionRecursive6}</Text> : null}
+                        {descriptionRecursive7 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionRecursive7}</Text> : null}
+                        {descriptionRecursive8 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionRecursive8}</Text> : null}
+                        {descriptionRecursive9 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionRecursive9}</Text> : null}
+                        {descriptionRecursive10 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionRecursive10}</Text> : null}
+                        {imageRec2 ? <Image source={imageRec2} style={{ alignSelf: 'center', width: 400, height: 600, paddingTop: 600 }} resizeMode='contain' /> : null}
 
                         {descriptionFunction15 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionFunction15}</Text> : null}
                         {descriptionFunction16 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionFunction16}</Text> : null}

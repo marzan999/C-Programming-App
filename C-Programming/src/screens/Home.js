@@ -309,6 +309,24 @@ export const C_TOPIC_LIST = [
     },
 
     {
+        name: 'Recursive functions',
+        color: '#2d68f0',
+        imageRec1: require("../../assets/rec1.png"),
+        imageRec2: require("../../assets/rec2.png"),
+        descriptionRecursive1: 'A function that calls itself is known as a recursive function. And, this technique is known as recursion.',
+        descriptionRecursive2: 'How recursion works?\n',
+        descriptionRecursive3: 'void recurse()\n{\n    ... .. ...\n    recurse();\n    ... .. ...\n}\n\nint main()\n{\n    ... .. ...\n    recurse();\n    ... .. ...\n}',
+        descriptionRecursive4: 'How does recursion work? \n',
+        descriptionRecursive5: 'The recursion continues until some condition is met to prevent it.\n\nTo prevent infinite recursion, if...else statement (or similar approach) can be used where one branch makes the recursive call, and other does not.',
+        descriptionRecursive6: 'Example: Sum of Natural Numbers Using Recursion\n',
+        descriptionRecursive7: '#include <stdio.h>\nint sum(int n);\n\nint main() {\n    int number, result;\n\n    printf("Enter a positive integer: ");\n    scanf("%d", &number);\n\n    result = sum(number);\n\n    printf("sum = %d", result);\n    return 0;\n}\n\nint sum(int n) {\n    if (n != 0)\n        // sum() function calls itself\n        return n + sum(n-1); \n    else\n        return n;\n}',
+        descriptionRecursive8: 'Output\n',
+        descriptionRecursive9: 'Enter a positive integer:3\nsum = 6',
+        descriptionRecursive10: 'Initially, the sum() is called from the main() function with number passed as an argument.\n\nSuppose, the value of n inside sum() is 3 initially. During the next function call, 2 is passed to the sum() function. This process continues until n is equal to 0.\n\nWhen n is equal to 0, the if condition fails and the else part is executed returning the sum of integers ultimately to the main() function.\n',
+
+    },
+
+    {
         name: 'Arrays',
         color: '#EDA249',
         imageArray1: require("../../assets/array1.png"),
@@ -526,12 +544,6 @@ export const C_TOPIC_LIST = [
 
     },
 
-    {
-        name: 'Functions & pointers',
-        color: '#2d68f0',
-        description2: [],
-
-    },
 
     {
         name: 'Void pointers',
