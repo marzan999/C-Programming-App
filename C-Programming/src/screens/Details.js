@@ -370,7 +370,17 @@ export default function Details({ route }) {
         descriptionString37,
         descriptionString38,
         descriptionString39,
-        descriptionString40
+        descriptionString40,
+        imageSF,
+        descriptionSF1,
+        descriptionSF2,
+        descriptionSF3,
+        descriptionSF4,
+        descriptionSF5,
+        descriptionSF6,
+        descriptionSF7,
+        descriptionSF8,
+        descriptionSF9,
 
 
     } = topic;
@@ -782,6 +792,17 @@ export default function Details({ route }) {
                         {descriptionString39 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionString39}</Text> : null}
                         {descriptionString40 ? <Text preset="h7" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionString40}</Text> : null}
 
+
+                        {descriptionSF1 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionSF1}</Text> : null}
+                        {descriptionSF2 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionSF2}</Text> : null}
+                        {imageSF ? <Image source={imageSF} style={{ alignSelf: 'center', width: 400, height: 250, paddingTop: 200 }} resizeMode='contain' /> : null}
+                        {descriptionSF3 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionSF3}</Text> : null}
+                        {descriptionSF4 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionSF4}</Text> : null}
+                        {descriptionSF5 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionSF5}</Text> : null}
+                        {descriptionSF6 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionSF6}</Text> : null}
+                        {descriptionSF7 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionSF7}</Text> : null}
+                        {descriptionSF8 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionSF8}</Text> : null}
+                        {descriptionSF9 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionSF9}</Text> : null}
 
 
                     </View>

@@ -485,7 +485,16 @@ export const C_TOPIC_LIST = [
     {
         name: 'String function',
         color: '#1ec2a4',
-        description2: [],
+        imageSF: require("../../assets/sf.png"),
+        descriptionSF1: 'String Manipulations In C Programming Using Library Functions',
+        descriptionSF2: 'You need to often manipulate strings according to the need of a problem. Most, if not all, of the time string manipulation can be done manually but, this makes programming complex and large.\n\nTo solve this, C supports a large number of string handling functions in the standard library "string.h".\n\nFew commonly used string handling functions are discussed below:\n',
+        descriptionSF3: 'Strings handling functions are defined under "string.h" header file.\n',
+        descriptionSF4: '#include <string.h>',
+        descriptionSF5: 'Note: You have to include the code below to run string handling functions.',
+        descriptionSF6: 'gets() and puts()',
+        descriptionSF7: 'Functions gets() and puts() are two string functions to take string input from the user and display it respectively as mentioned in the string section.\n',
+        descriptionSF8: '#include<stdio.h>\n\nint main()\n{\n   char name[30];\n    printf("Enter name: ");\n    gets(name);     //Function to read string from user.\n   printf("Name: ");\n   puts(name);    //Function to display string.\n    return 0;\n}',
+        descriptionSF9: 'Note: Though, gets() and puts() function handle strings, both these functions are defined in "stdio.h" header file.',
 
     },
 
