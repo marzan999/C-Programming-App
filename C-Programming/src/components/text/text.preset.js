@@ -46,7 +46,7 @@ export const presets = {
     },
     h7: {
         ...BASE,
-        fontSize: 20,
+        fontSize: 23,
     },
 
 

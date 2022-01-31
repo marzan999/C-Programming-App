@@ -420,6 +420,55 @@ export default function Details({ route }) {
         descriptionSF7,
         descriptionSF8,
         descriptionSF9,
+        descriptionStructure1,
+        descriptionStructure2,
+        descriptionStructure3,
+        descriptionStructure4,
+        descriptionStructure5,
+        descriptionStructure6,
+        descriptionStructure7,
+        descriptionStructure8,
+        descriptionStructure9,
+        descriptionStructure10,
+        descriptionStructure11,
+        descriptionStructure12,
+        descriptionStructure13,
+        descriptionStructure14,
+        descriptionStructure15,
+        descriptionStructure16,
+        descriptionStructure17,
+        descriptionStructure18,
+        descriptionStructure19,
+        descriptionStructure20,
+        descriptionStructure21,
+        descriptionStructure22,
+        descriptionStructure23,
+        descriptionStructure24,
+        descriptionStructure24a,
+        descriptionStructure25,
+        descriptionStructure26,
+        descriptionStructure27,
+        descriptionStructure27a,
+        descriptionStructure27b,
+        descriptionStructure28,
+        descriptionStructure29,
+        descriptionStructure30,
+        descriptionStructure31,
+        descriptionStructure32,
+        descriptionStructure33,
+        descriptionStructure34,
+        descriptionStructure35,
+        descriptionStructure36,
+        descriptionStructure37,
+        descriptionStructure38,
+        descriptionStructure39,
+        descriptionStructure40,
+        descriptionStructure41,
+        descriptionStructure42,
+        descriptionStructure43,
+        descriptionStructure44,
+        descriptionStructure45,
+        descriptionStructure46,
 
 
     } = topic;
@@ -883,6 +932,66 @@ export default function Details({ route }) {
                         {descriptionSF7 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionSF7}</Text> : null}
                         {descriptionSF8 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionSF8}</Text> : null}
                         {descriptionSF9 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionSF9}</Text> : null}
+
+
+
+
+
+
+                        {descriptionStructure1 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure1}</Text> : null}
+                        {descriptionStructure2 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure2}</Text> : null}
+                        {descriptionStructure3 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure3}</Text> : null}
+                        {descriptionStructure4 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure4}</Text> : null}
+                        {descriptionStructure5 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure5}</Text> : null}
+                        {descriptionStructure6 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure6}</Text> : null}
+                        {descriptionStructure7 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure7}</Text> : null}
+                        {descriptionStructure8 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure8}</Text> : null}
+                        {descriptionStructure9 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure9}</Text> : null}
+                        {descriptionStructure10 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure10}</Text> : null}
+                        {descriptionStructure11 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure11}</Text> : null}
+                        {descriptionStructure12 ? <Text preset="h7" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure12}</Text> : null}
+                        {descriptionStructure13 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure13}</Text> : null}
+                        {descriptionStructure14 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure14}</Text> : null}
+                        {descriptionStructure15 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure15}</Text> : null}
+                        {descriptionStructure16 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure16}</Text> : null}
+                        {descriptionStructure17 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure17}</Text> : null}
+                        {descriptionStructure18 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure18}</Text> : null}
+                        {descriptionStructure19 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure19}</Text> : null}
+                        {descriptionStructure20 ? <Text preset="h7" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure20}</Text> : null}
+                        {descriptionStructure21 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure21}</Text> : null}
+                        {descriptionStructure22 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure22}</Text> : null}
+                        {descriptionStructure23 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure23}</Text> : null}
+                        {descriptionStructure24 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure24}</Text> : null}
+                        {descriptionStructure24a ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure24a}</Text> : null}
+                        {descriptionStructure25 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure25}</Text> : null}
+                        {descriptionStructure26 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure26}</Text> : null}
+                        {descriptionStructure27 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure27}</Text> : null}
+                        {descriptionStructure27a ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure27a}</Text> : null}
+                        {descriptionStructure27b ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure27b}</Text> : null}
+                        {descriptionStructure28 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure28}</Text> : null}
+                        {descriptionStructure29 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure29}</Text> : null}
+                        {descriptionStructure30 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure30}</Text> : null}
+                        {descriptionStructure31 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure31}</Text> : null}
+                        {descriptionStructure32 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure32}</Text> : null}
+                        {descriptionStructure33 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure33}</Text> : null}
+                        {descriptionStructure34 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure34}</Text> : null}
+                        {descriptionStructure35 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure35}</Text> : null}
+                        {descriptionStructure36 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure36}</Text> : null}
+                        {descriptionStructure37 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure37}</Text> : null}
+                        {descriptionStructure38 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure38}</Text> : null}
+                        {descriptionStructure39 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure39}</Text> : null}
+                        {descriptionStructure40 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure40}</Text> : null}
+                        {descriptionStructure41 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure41}</Text> : null}
+                        {descriptionStructure42 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure42}</Text> : null}
+                        {descriptionStructure43 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure43}</Text> : null}
+                        {descriptionStructure44 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionStructure44}</Text> : null}
+                        {descriptionStructure45 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure45}</Text> : null}
+                        {descriptionStructure46 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure46}</Text> : null}
+
+
+
+
+
 
 
                     </View>
