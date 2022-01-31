@@ -631,33 +631,6 @@ export const C_TOPIC_LIST = [
 
     },
 
-    {
-        name: 'Dynamic string & array',
-        color: '#EDA249',
-        description2: [],
-
-    },
-
-    {
-        name: 'Files',
-        color: '#6f2ed6',
-        description2: [],
-
-    },
-
-    {
-        name: 'Binary files I/O',
-        color: '#D14C32',
-        description2: [],
-
-    },
-
-    {
-        name: 'Error handling',
-        color: '#DEF4FC',
-        description2: [],
-
-    },
 
 
 ];
