@@ -469,6 +469,30 @@ export default function Details({ route }) {
         descriptionStructure44,
         descriptionStructure45,
         descriptionStructure46,
+        descriptionUnion1,
+        descriptionUnion2,
+        descriptionUnion3,
+        descriptionUnion4,
+        descriptionUnion5,
+        descriptionUnion6,
+        descriptionUnion7,
+        descriptionUnion8,
+        descriptionUnion9,
+        descriptionUnion10,
+        descriptionUnion11,
+        descriptionUnion12,
+        descriptionUnion13,
+        descriptionUnion14,
+        descriptionUnion15,
+        descriptionUnion16,
+        descriptionUnion17,
+        descriptionUnion18,
+        descriptionUnion19,
+        descriptionUnion20,
+        descriptionUnion21,
+        descriptionUnion22,
+        descriptionUnion23,
+        descriptionUnion24,
 
 
     } = topic;
@@ -934,10 +958,6 @@ export default function Details({ route }) {
                         {descriptionSF9 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionSF9}</Text> : null}
 
 
-
-
-
-
                         {descriptionStructure1 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure1}</Text> : null}
                         {descriptionStructure2 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure2}</Text> : null}
                         {descriptionStructure3 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionStructure3}</Text> : null}
@@ -990,6 +1010,30 @@ export default function Details({ route }) {
 
 
 
+                        {descriptionUnion1 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion1}</Text> : null}
+                        {descriptionUnion2 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion2}</Text> : null}
+                        {descriptionUnion3 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion3}</Text> : null}
+                        {descriptionUnion4 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionUnion4}</Text> : null}
+                        {descriptionUnion5 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion5}</Text> : null}
+                        {descriptionUnion6 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion6}</Text> : null}
+                        {descriptionUnion7 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion7}</Text> : null}
+                        {descriptionUnion8 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionUnion8}</Text> : null}
+                        {descriptionUnion9 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion9}</Text> : null}
+                        {descriptionUnion10 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionUnion10}</Text> : null}
+                        {descriptionUnion11 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion11}</Text> : null}
+                        {descriptionUnion12 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion12}</Text> : null}
+                        {descriptionUnion13 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion13}</Text> : null}
+                        {descriptionUnion14 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion14}</Text> : null}
+                        {descriptionUnion15 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion15}</Text> : null}
+                        {descriptionUnion16 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionUnion16}</Text> : null}
+                        {descriptionUnion17 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion17}</Text> : null}
+                        {descriptionUnion18 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionUnion18}</Text> : null}
+                        {descriptionUnion19 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion19}</Text> : null}
+                        {descriptionUnion20 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion20}</Text> : null}
+                        {descriptionUnion21 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion21}</Text> : null}
+                        {descriptionUnion22 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionUnion22}</Text> : null}
+                        {descriptionUnion23 ? <Text preset="h2" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionUnion23}</Text> : null}
+                        {descriptionUnion24 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[8], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionUnion24}</Text> : null}
 
 
 
