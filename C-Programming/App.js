@@ -19,6 +19,7 @@ export default function App() {
     'Antonio-Medium': require('./assets/fonts/Antonio-Medium.ttf'),
     'Spartan-Bold': require('./assets/fonts/Spartan-Bold.ttf'),
     'Spartan-Regular': require('./assets/fonts/Spartan-Regular.ttf'),
+    'Lobster-Regular': require('./assets/fonts/Lobster-Regular.ttf'),
   });
 
   if (!fontsLoaded) {

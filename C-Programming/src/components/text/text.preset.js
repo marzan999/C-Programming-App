@@ -12,6 +12,11 @@ const BASE_BOLD = {
     color: colors.white
 }
 
+const BASE_BOLDS = {
+    fontFamily: typography.primary2,
+    color: colors.white
+}
+
 const BOLD = {
     fontFamily: typography.bold,
     color: colors.white
@@ -42,12 +47,15 @@ export const presets = {
     },
     h6: {
         ...BASE_BOLD,
-        fontSize: 20,
+        fontSize: 23,
     },
     h7: {
         ...BASE,
         fontSize: 23,
     },
-
+    h8: {
+        ...BASE_BOLDS,
+        fontSize: 50,
+    },
 
 }

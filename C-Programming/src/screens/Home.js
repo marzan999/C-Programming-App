@@ -28,7 +28,7 @@ export const C_TOPIC_LIST = [
         description: 'Program to Display "Hello, World!"',
         descriptionSourceCodeHW: '\nSource Code: \n',
         descriptionOutputHW: 'Output: \n',
-        codeHW: '#include <stdio.h>\nint main() {\n// printf() displays the string inside quotation\nprintf("Hello, World!");\nreturn 0;\n}',
+        codeHW: '#include <stdio.h>\nint main() {\n     // printf() displays the string inside \n      quotation\n      printf("Hello, World!");\n      return 0;\n}',
         outputHW: 'Hello, World!',
         // description2: 'hello',
         outputDescriptionHW: '\n1. #include <stdio.h> – This statement tells compiler to include this stdio.h file in the program. This is a standard input output file that contains the definitions of common input output functions such as scanf() and printf(). In the above program we are using printf() function.\n\n2. int main() – Here main() is the function name and int is the return type of this function. Every C program must have this function because the execution of program begins with the main() function. The 0 return value of this function represents successful execution of program while the return value 1 represents the unsuccessful execution of program. This is the reason we have return 0; statement at the end of this main function.\n\n3. printf("Hello World"); – This function displays the content within double quotes as it is on the screen.\n\n4. return 0; – As mentioned above, the value 0 means successful execution of main() function.'
