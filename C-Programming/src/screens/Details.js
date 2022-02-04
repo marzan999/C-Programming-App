@@ -51,6 +51,11 @@ export default function Details({ route }) {
         descriptionCommentsDes3,
         descriptionCommentsDes4,
         descriptionCommentsDes5,
+        descriptionCommentsDes6,
+        descriptionCommentsDes7,
+        descriptionCommentsDes8,
+        descriptionCommentsDes9,
+        descriptionCommentsDes10,
         descriptionOperator1,
         descriptionOperator2,
         descriptionOperator3,
@@ -556,6 +561,16 @@ export default function Details({ route }) {
                         {descriptionCommentsDes3 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionCommentsDes3}</Text> : null}
                         {descriptionCommentsDes4 ? <Text preset="h5" style={{ paddingTop: spacing[0], lineHeight: spacing[7] }}>{descriptionCommentsDes4}</Text> : null}
                         {descriptionCommentsDes5 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionCommentsDes5}</Text> : null}
+                        {descriptionCommentsDes6 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionCommentsDes6}</Text> : null}
+                        {descriptionCommentsDes7 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionCommentsDes7}</Text> : null}
+                        {descriptionCommentsDes8 ? <Text preset="h5" style={{ paddingTop: spacing[0], lineHeight: spacing[7] }}>{descriptionCommentsDes8}</Text> : null}
+                        {descriptionCommentsDes9 ? <Text preset="h5" style={{ paddingTop: spacing[2], lineHeight: spacing[7], color: 'orange', backgroundColor: '#266E73' }} selectable="true">{descriptionCommentsDes9}</Text> : null}
+                        {descriptionCommentsDes10 ? <Text preset="h5" style={{ paddingTop: spacing[7], lineHeight: spacing[8], color: 'white' }}>{descriptionCommentsDes10}</Text> : null}
+
+
+
+
+
 
                         {descriptionOperator1 ? <Text preset="h5" style={{ paddingTop: spacing[0], lineHeight: spacing[7] }}>{descriptionOperator1}</Text> : null}
                         {descriptionOperator2 ? <Text preset="h2" style={{ paddingTop: spacing[5], lineHeight: spacing[8] }}>{descriptionOperator2}</Text> : null}

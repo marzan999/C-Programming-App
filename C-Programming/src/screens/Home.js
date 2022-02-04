@@ -76,12 +76,17 @@ export const C_TOPIC_LIST = [
     {
         name: 'Comments',
         color: '#6f2ed6',
-        descriptionComments: 'This C tutorial explains how to use comments in the C language with syntax and examples.',
-        descriptionCommentsDes: 'Description',
-        descriptionCommentsDes2: 'In the C Programming Language, you can place comments in your source code that are not executed as part of the program.\n\nComments provide clarity to the C source code allowing others to better understand what the code was intended to accomplish and greatly helping in debugging the code. Comments are especially important in large projects containing hundreds or thousands of lines of source code or in projects in which many contributors are working on the source code.\n\nA comment starts with a slash asterisk /* and ends with a asterisk slash */ and can be anywhere in your program. Comments can span several lines within your C program. Comments are typically added directly above the related C source code.\n\nAdding source code comments to your C source code is a highly recommended practice. In general, it is always better to over comment C source code than to not add enough.',
-        descriptionCommentsDes3: 'Syntax\n',
-        descriptionCommentsDes4: 'The syntax for a comment is: \n',
-        descriptionCommentsDes5: '/* comment goes here */\n\nOR\n\n/*\n* comment goes here\n*/',
+        descriptionComments: 'In programming, comments are hints that a programmer can add to make their code easier to read and understand.',
+        descriptionCommentsDes: 'Types of Comments',
+        descriptionCommentsDes2: 'There are two ways to add comments in C:\n\n1. // - Single Line Comment\n2. /*...*/ - Multi-line Comment',
+        descriptionCommentsDes3: '1. Single-line Comments in C\n',
+        descriptionCommentsDes4: 'In C, a single line comment starts with //. It starts and ends in the same line. For example, \n',
+        descriptionCommentsDes5: 'int age = 25;  // create integer variable',
+        descriptionCommentsDes6: 'Here, code before // are executed and code after // are ignored by the compiler.',
+        descriptionCommentsDes7: '2. Multi-line Comments in C',
+        descriptionCommentsDes8: '\nIn C programming, there is another type of comment that allows us to comment on multiple lines at once, they are multi-line comments.\n\nTo write multi-line comments, we use the /*....*/ symbol. For example,\n',
+        descriptionCommentsDes9: '/* We can take\nmultiple line \nof comment line */',
+        descriptionCommentsDes10: 'In this type of comment, the C compiler ignores everything from /* to */.',
     },
 
     {
@@ -360,9 +365,9 @@ export const C_TOPIC_LIST = [
         descriptionArray25: 'Here is how you can print an individual element of an array.\n',
         descriptionArray26: '// print the first element of the array\nprintf("%d", mark[0]);\n\n// print the third element of the array\nprintf("%d", mark[2]);\n\n// print ith element of the array\nprintf("%d", mark[i-1]);',
         descriptionArray27: 'Example: Array Input/Output\n',
-        descriptionArray28: '// Program to take 5 values from the user and store them in an array\n// Print the elements stored in the array\n#include <stdio.h>\n\nint main() {\n  int values[5];\n\n printf("Enter 5 integers: ");\n\n // taking input and storing it in an array\n for(int i = 0; i < 5; ++i) {\n    scanf("%d", &values[i]);\n }\n\n  printf("Displaying integers: ");\n\n // printing elements of an array\n for(int i = 0; i < 5; ++i) {\n   printf("%d\n", values[i]);\n  }\n  return 0;\n}',
+        descriptionArray28: '// Program to take 5 values from the user and store them in an array\n// Print the elements stored in the array\n#include <stdio.h>\n\nint main() {\n  int values[5];\n\n printf("Enter 5 integers: ");\n\n // taking input and storing it in an array\n for(int i = 0; i < 5; ++i) {\n    scanf("%d", &values[i]);\n }\n\n  printf("Displaying integers: ");\n\n // printing elements of an array\n for(int i = 0; i < 5; ++i) {\n   printf("%d ", values[i]);\n  }\n  return 0;\n}',
         descriptionArray29: 'Output\n',
-        descriptionArray30: 'Enter 5 integers: 1\n-3\n34\n0\n3\nDisplaying integers: 1\n-3\n34\n0\n3',
+        descriptionArray30: 'Enter 5 integers: 1\n-3\n34\n0\n3\nDisplaying integers: 1 -3 34 0 3',
         descriptionArray31: 'Here, we have used a for loop to take 5 inputs from the user and store them in an array. Then, using another for loop, these elements are displayed on the screen.',
 
 
@@ -390,7 +395,7 @@ export const C_TOPIC_LIST = [
         descriptionMultiD16: 'Output\n',
         descriptionMultiD17: 'City 1, Day 1: 33\nCity 1, Day 2: 34\nCity 1, Day 3: 35\nCity 1, Day 4: 33\nCity 1, Day 5: 32\nCity 1, Day 6: 31\nCity 1, Day 7: 30\nCity 2, Day 1: 23\nCity 2, Day 2: 22\nCity 2, Day 3: 21\nCity 2, Day 4: 24\nCity 2, Day 5: 22\nCity 2, Day 6: 25\nCity 2, Day 7: 26\n\nDisplaying values: \n\nCity 1, Day 1 = 33\nCity 1, Day 2 = 34\nCity 1, Day 3 = 35\nCity 1, Day 4 = 33\nCity 1, Day 5 = 32\nCity 1, Day 6 = 31\nCity 1, Day 7 = 30\nCity 2, Day 1 = 23\nCity 2, Day 2 = 22\nCity 2, Day 3 = 21\nCity 2, Day 4 = 24\nCity 2, Day 5 = 22\nCity 2, Day 6 = 25\nCity 2, Day 7 = 26',
         descriptionMultiD18: 'Example: Three-dimensional array\n',
-        descriptionMultiD19: '// C Program to store and print 12 values entered by the user\n\n#include <stdio.h>\nint main()\n{\n  int test[2][3][2];\n\n  printf("Enter 12 values: ");\n\n  for (int i = 0; i < 2; ++i)\n  {\n    for (int j = 0; j < 3; ++j)\n    {\n      for (int k = 0; k < 2; ++k)\n     {\n        scanf("%d", &test[i][j][k]);\n      }\n    }\n  }\n\n  // Printing values with proper index.\n\n  printf("\nDisplaying values: ");\n  for (int i = 0; i < 2; ++i)\n  {\n    for (int j = 0; j < 3; ++j)\n    {\n     for (int k = 0; k < 2; ++k)\n      {\n       printf("test[%d][%d][%d] = %d", i, j, k, test[i][j][k]);\n     }\n    }\n  }\n\n  return 0;\n}',
+        descriptionMultiD19: '// C Program to store and print 12 values entered by the user\n\n#include <stdio.h>\nint main()\n{\n  int test[2][3][2];\n\n  printf("Enter 12 values: ");\n\n  for (int i = 0; i < 2; ++i)\n  {\n    for (int j = 0; j < 3; ++j)\n    {\n      for (int k = 0; k < 2; ++k)\n     {\n        scanf("%d", &test[i][j][k]);\n      }\n    }\n  }\n\n  // Printing values with proper index.\n\n  printf("Displaying values: ");\n  for (int i = 0; i < 2; ++i)\n  {\n    for (int j = 0; j < 3; ++j)\n    {\n     for (int k = 0; k < 2; ++k)\n      {\n       printf("test[%d][%d][%d] = %d", i, j, k, test[i][j][k]);\n     }\n    }\n  }\n\n  return 0;\n}',
         descriptionMultiD20: 'Output\n',
         descriptionMultiD21: 'Enter 12 values: \n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n\nDisplaying Values:\ntest[0][0][0] = 1\ntest[0][0][1] = 2\ntest[0][1][0] = 3\ntest[0][1][1] = 4\ntest[0][2][0] = 5\ntest[0][2][1] = 6\ntest[1][0][0] = 7\ntest[1][0][1] = 8\nbtest[1][1][0] = 9\ntest[1][1][1] = 10\ntest[1][2][0] = 11\ntest[1][2][1] = 12',
 
