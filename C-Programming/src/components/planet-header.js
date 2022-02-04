@@ -9,10 +9,18 @@ import { useNavigation } from '@react-navigation/native';
 export default function PlanetHeader({ backButton = false, topicName, customStyles }) {
     const navigation = useNavigation();
     return (
-        <View style={{ paddingLeft: spacing[6], paddingVertical: spacing[4], borderBottomWidth: 3, borderColor: colors.black, flexDirection: 'row', alignItems: 'center' }}>
+        <View style={{
+            paddingLeft: spacing[6],
+            paddingVertical: spacing[4],
+            borderBottomWidth: 3,
+            borderColor: colors.black,
+            flexDirection: 'row',
+            alignItems: 'center'
+        }}
+        >
             {backButton &&
                 <TouchableOpacity onPress={() => navigation.goBack()}>
-                    <AntDesign name="left" size={18} color="black" style={{ marginRight: spacing[4] }} />
+                    <AntDesign name="left" size={18} color="white" style={{ marginRight: spacing[4] }} />
                 </TouchableOpacity>
             }
             <Text preset='h1' style={customStyles}>{topicName}</Text>
