@@ -3,4 +3,5 @@ export const typography = {
     primaryBold: 'Spartan-Bold',
     bold: 'Antonio-Medium',
     primary2: 'Lobster-Regular',
+    primary3: 'RampartOne-Regular',
 }

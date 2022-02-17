@@ -8,11 +8,13 @@ export default function WelcomeScreen( { navigation } ) {
     return (
         <SafeAreaView style={{backgroundColor: '#193739' , flex: 1}}>
 
-        <Pressable onPress={ () => navigation.navigate("Home")}>
-        <View>
-            <Text>C</Text>
-            <Text>PROGRAMMING</Text>
+        <View style={styles.viewStyle}>
+            <Text preset="h9" style={styles.cStyle }>C</Text>
+            <Text style={styles.programmingStyle}>PROGRAMMING</Text>
         </View>
+
+        <Pressable onPress={ () => navigation.navigate("Home")}>
+        
         </Pressable>
         </SafeAreaView>
     );
@@ -20,12 +22,19 @@ export default function WelcomeScreen( { navigation } ) {
 
 const styles = StyleSheet.create({
     cStyle: {
-        alignItems: 'center', 
-        justifyContent: 'center'
+        paddingTop: 140,
+        paddingLeft: 100, 
+        
     }, 
 
     programmingStyle: {
-        alignItems: 'center', 
-        justifyContent: 'center'
+        paddingTop: 294, 
+        fontSize: 30, 
+        marginLeft: -80,
+        fontWeight: 'bold',
+    }, 
+
+    viewStyle: {
+        flexDirection: 'row',
     }
 });
